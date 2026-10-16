@@ -1,0 +1,25 @@
+{
+  "dataset": "YAGO3-10",
+  "N": 123143,
+  "M": 37,
+  "K": 74,
+  "train": 1079040,
+  "valid": 4978,
+  "test": 4982,
+  "timings": {
+    "encode_sec": 4.502539680001064,
+    "wrr_train_sec": 29.72211820099983,
+    "c_train_sec": 281.51635959600026,
+    "c_memory_peak_gb": 97.96517217811197
+  },
+  "c_learning_stats": {
+    "source": "Fast_Approx_v2_sparse_matrix_path_weighted_running_mean",
+    "T": 5,
+    "activity_threshold": 0.5,
+    "antecedent_pairs_with_support": 1864,
+    "path_experience_samples": 4194934366,
+    "unique_endpoint_samples": 4194934366,
+    "active_rules": 242,
+    "erz_cache_entries_added": 0
+  }
+}

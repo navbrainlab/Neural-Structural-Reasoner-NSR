@@ -1,0 +1,2903 @@
+[
+  {
+    "dataset": "NATIONS",
+    "N": 14,
+    "M": 55,
+    "train_n": 1592,
+    "valid_n": 199,
+    "test_n": 201,
+    "test_eval_n": 201,
+    "params": {
+      "T_thresh": 0.3803925243084487,
+      "W_RR_sigmoid_k": 1.6284765129487637,
+      "C_activity_threshold": 0.25,
+      "C_rule_threshold": 0.07287721406968567,
+      "C_min_support": 2,
+      "agg_mode": "add",
+      "alpha": 0.48065309985453186,
+      "learn_cache_reverse": true
+    },
+    "best_valid_MRR": 0.6327592145431341,
+    "tuning_sec": 58.71341288718395,
+    "train_timing": {
+      "model_init_sec": 0.00025604688562452793,
+      "encode_sec": 0.0010046500246971846,
+      "wrr_train_sec": 0.005431644851341844,
+      "c_train_sec": 2.6749986531212926,
+      "total_train_sec": 2.681692327838391
+    },
+    "C_learning_stats": {
+      "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+      "T": 5,
+      "activity_threshold": 0.25,
+      "antecedent_pairs_with_support": 11412,
+      "path_experience_samples": 748646,
+      "unique_endpoint_samples": 748646,
+      "active_rules": 380415,
+      "erz_cache_entries_added": 0
+    },
+    "no_C": {
+      "MR": 4.039800995024875,
+      "MRR": 0.43266250057294836,
+      "Hits@1": 22.885572139303484,
+      "Hits@3": 49.75124378109453,
+      "Hits@10": 97.01492537313433,
+      "n_eval": 201
+    },
+    "with_C": {
+      "MR": 2.7313432835820897,
+      "MRR": 0.622787038831815,
+      "Hits@1": 44.27860696517413,
+      "Hits@3": 75.62189054726367,
+      "Hits@10": 99.00497512437812,
+      "n_eval": 201
+    },
+    "delta_MRR": 0.1901245382588666,
+    "delta_Hits@1": 21.393034825870643,
+    "no_C_eval_sec": 0.003914691973477602,
+    "with_C_eval_sec": 2.5221748009789735,
+    "active_rules": 380415,
+    "rules_with_any_inverse": 284455,
+    "prediction_changes": {
+      "queries_checked": 100,
+      "prediction_dict_changed": 100,
+      "true_tail_score_changed": 100
+    },
+    "top_rules": [
+      {
+        "rule": "embassy + relbooktranslations => treaties",
+        "r_i": 14,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9956172704696655,
+        "support": 138,
+        "hits": 91
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => intergovorgs3",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 21,
+        "confidence": 0.9921619892120361,
+        "support": 90,
+        "hits": 77
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => treaties",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9913801550865173,
+        "support": 137,
+        "hits": 86
+      },
+      {
+        "rule": "timesinceally^-1 + relbooktranslations => treaties",
+        "r_i": 100,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9899950623512268,
+        "support": 90,
+        "hits": 69
+      },
+      {
+        "rule": "commonbloc1 + relbooktranslations => treaties",
+        "r_i": 7,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9897347688674927,
+        "support": 121,
+        "hits": 75
+      },
+      {
+        "rule": "timesinceally + exportbooks^-1 => intergovorgs3",
+        "r_i": 45,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9884368777275085,
+        "support": 70,
+        "hits": 60
+      },
+      {
+        "rule": "relintergovorgs^-1 + relbooktranslations => treaties",
+        "r_i": 93,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9883319735527039,
+        "support": 104,
+        "hits": 78
+      },
+      {
+        "rule": "ngoorgs3^-1 + relbooktranslations => treaties",
+        "r_i": 83,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9875586032867432,
+        "support": 92,
+        "hits": 73
+      },
+      {
+        "rule": "relngo^-1 + relbooktranslations => treaties",
+        "r_i": 94,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9869798421859741,
+        "support": 102,
+        "hits": 79
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => intergovorgs3",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.9858471155166626,
+        "support": 67,
+        "hits": 56
+      },
+      {
+        "rule": "embassy + relstudents => intergovorgs3",
+        "r_i": 14,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9846004843711853,
+        "support": 76,
+        "hits": 64
+      },
+      {
+        "rule": "commonbloc0 + commonbloc0 => commonbloc2",
+        "r_i": 6,
+        "r_j": 6,
+        "r_k": 8,
+        "confidence": 0.983817458152771,
+        "support": 68,
+        "hits": 63
+      },
+      {
+        "rule": "intergovorgs^-1 + relbooktranslations => treaties",
+        "r_i": 75,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9830701351165771,
+        "support": 91,
+        "hits": 63
+      },
+      {
+        "rule": "conferences + exportbooks^-1 => intergovorgs3",
+        "r_i": 9,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9830052852630615,
+        "support": 56,
+        "hits": 49
+      },
+      {
+        "rule": "ngo + relexportbooks^-1 => intergovorgs",
+        "r_i": 27,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9829939007759094,
+        "support": 59,
+        "hits": 58
+      },
+      {
+        "rule": "commonbloc1^-1 + relbooktranslations => treaties",
+        "r_i": 62,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9827066659927368,
+        "support": 117,
+        "hits": 71
+      },
+      {
+        "rule": "independence + relbooktranslations => treaties",
+        "r_i": 19,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9826903939247131,
+        "support": 78,
+        "hits": 56
+      },
+      {
+        "rule": "commonbloc0^-1 + commonbloc0 => commonbloc2",
+        "r_i": 61,
+        "r_j": 6,
+        "r_k": 8,
+        "confidence": 0.9820622205734253,
+        "support": 68,
+        "hits": 61
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => intergovorgs",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9820547699928284,
+        "support": 90,
+        "hits": 73
+      },
+      {
+        "rule": "ngoorgs3^-1 + eemigrants => ngo",
+        "r_i": 83,
+        "r_j": 13,
+        "r_k": 27,
+        "confidence": 0.9817520380020142,
+        "support": 38,
+        "hits": 38
+      },
+      {
+        "rule": "reldiplomacy^-1 + booktranslations => treaties",
+        "r_i": 88,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9812620282173157,
+        "support": 112,
+        "hits": 71
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => intergovorgs",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.981153130531311,
+        "support": 137,
+        "hits": 93
+      },
+      {
+        "rule": "ngo + exportbooks^-1 => intergovorgs",
+        "r_i": 27,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9808578491210938,
+        "support": 57,
+        "hits": 56
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => embassy",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 14,
+        "confidence": 0.9803769588470459,
+        "support": 124,
+        "hits": 73
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex => treaties",
+        "r_i": 7,
+        "r_j": 3,
+        "r_k": 49,
+        "confidence": 0.9802423119544983,
+        "support": 236,
+        "hits": 61
+      },
+      {
+        "rule": "ngo^-1 + relbooktranslations => treaties",
+        "r_i": 82,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9801744818687439,
+        "support": 83,
+        "hits": 64
+      },
+      {
+        "rule": "commonbloc1 + booktranslations => intergovorgs3",
+        "r_i": 7,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9798338413238525,
+        "support": 135,
+        "hits": 81
+      },
+      {
+        "rule": "timesinceally^-1 + relexportbooks^-1 => treaties",
+        "r_i": 100,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9797638058662415,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => relngo",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 39,
+        "confidence": 0.9797412157058716,
+        "support": 124,
+        "hits": 98
+      },
+      {
+        "rule": "timesinceally + relbooktranslations => treaties",
+        "r_i": 45,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9797147512435913,
+        "support": 91,
+        "hits": 67
+      },
+      {
+        "rule": "intergovorgs3 + relbooktranslations => treaties",
+        "r_i": 21,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9795368909835815,
+        "support": 108,
+        "hits": 67
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex^-1 => treaties",
+        "r_i": 7,
+        "r_j": 58,
+        "r_k": 49,
+        "confidence": 0.9793156385421753,
+        "support": 237,
+        "hits": 60
+      },
+      {
+        "rule": "intergovorgs + relbooktranslations => treaties",
+        "r_i": 20,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9791184067726135,
+        "support": 92,
+        "hits": 59
+      },
+      {
+        "rule": "ngoorgs3^-1 + relstudents => ngo",
+        "r_i": 83,
+        "r_j": 40,
+        "r_k": 27,
+        "confidence": 0.9791144132614136,
+        "support": 45,
+        "hits": 44
+      },
+      {
+        "rule": "commonbloc0 + commonbloc0^-1 => commonbloc2",
+        "r_i": 6,
+        "r_j": 61,
+        "r_k": 8,
+        "confidence": 0.9784485697746277,
+        "support": 68,
+        "hits": 62
+      },
+      {
+        "rule": "ngoorgs3^-1 + booktranslations => treaties",
+        "r_i": 83,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9783431887626648,
+        "support": 105,
+        "hits": 76
+      },
+      {
+        "rule": "independence + students => intergovorgs3",
+        "r_i": 19,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9778422117233276,
+        "support": 47,
+        "hits": 38
+      },
+      {
+        "rule": "timesinceally^-1 + eemigrants => intergovorgs3",
+        "r_i": 100,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9778342843055725,
+        "support": 50,
+        "hits": 40
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => treaties",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9774733781814575,
+        "support": 90,
+        "hits": 62
+      },
+      {
+        "rule": "timesinceally^-1 + relexportbooks^-1 => intergovorgs",
+        "r_i": 100,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.977407693862915,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "ngo + relbooktranslations => treaties",
+        "r_i": 27,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9773459434509277,
+        "support": 82,
+        "hits": 64
+      },
+      {
+        "rule": "reldiplomacy + relbooktranslations => intergovorgs",
+        "r_i": 33,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9772680997848511,
+        "support": 99,
+        "hits": 71
+      },
+      {
+        "rule": "reldiplomacy + relbooktranslations => intergovorgs3",
+        "r_i": 33,
+        "r_j": 32,
+        "r_k": 21,
+        "confidence": 0.9770357608795166,
+        "support": 99,
+        "hits": 73
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => treaties",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9767142534255981,
+        "support": 57,
+        "hits": 40
+      },
+      {
+        "rule": "commonbloc0^-1 + commonbloc0^-1 => commonbloc2",
+        "r_i": 61,
+        "r_j": 61,
+        "r_k": 8,
+        "confidence": 0.9765427112579346,
+        "support": 68,
+        "hits": 60
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => intergovorgs",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9763011932373047,
+        "support": 57,
+        "hits": 42
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => treaties",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9762274622917175,
+        "support": 58,
+        "hits": 42
+      },
+      {
+        "rule": "conferences + relexportbooks^-1 => intergovorgs3",
+        "r_i": 9,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.975986659526825,
+        "support": 50,
+        "hits": 44
+      },
+      {
+        "rule": "relstudents^-1 + intergovorgs => intergovorgs",
+        "r_i": 95,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.9759233593940735,
+        "support": 49,
+        "hits": 46
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => intergovorgs",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9758556485176086,
+        "support": 58,
+        "hits": 44
+      },
+      {
+        "rule": "timesinceally + eemigrants => intergovorgs3",
+        "r_i": 45,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9754552245140076,
+        "support": 52,
+        "hits": 41
+      },
+      {
+        "rule": "conferences + exportbooks^-1 => intergovorgs",
+        "r_i": 9,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9748697876930237,
+        "support": 56,
+        "hits": 48
+      },
+      {
+        "rule": "intergovorgs3 + relexportbooks^-1 => intergovorgs",
+        "r_i": 21,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.97481769323349,
+        "support": 87,
+        "hits": 71
+      },
+      {
+        "rule": "intergovorgs3 + exportbooks^-1 => intergovorgs",
+        "r_i": 21,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9747480750083923,
+        "support": 87,
+        "hits": 70
+      },
+      {
+        "rule": "timesinceally^-1 + exportbooks^-1 => intergovorgs",
+        "r_i": 100,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9746772646903992,
+        "support": 66,
+        "hits": 52
+      },
+      {
+        "rule": "blockpositionindex^-1 + relexportbooks^-1 => relngo",
+        "r_i": 58,
+        "r_j": 91,
+        "r_k": 39,
+        "confidence": 0.974539577960968,
+        "support": 41,
+        "hits": 40
+      },
+      {
+        "rule": "exportbooks + ngoorgs3 => intergovorgs",
+        "r_i": 17,
+        "r_j": 28,
+        "r_k": 20,
+        "confidence": 0.97434401512146,
+        "support": 48,
+        "hits": 42
+      },
+      {
+        "rule": "timesinceally^-1 + exportbooks^-1 => treaties",
+        "r_i": 100,
+        "r_j": 72,
+        "r_k": 49,
+        "confidence": 0.9742184281349182,
+        "support": 66,
+        "hits": 50
+      },
+      {
+        "rule": "intergovorgs^-1 + relstudents => intergovorgs3",
+        "r_i": 75,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9740128517150879,
+        "support": 49,
+        "hits": 42
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => intergovorgs",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9737901091575623,
+        "support": 67,
+        "hits": 61
+      },
+      {
+        "rule": "ngoorgs3^-1 + relexportbooks^-1 => intergovorgs3",
+        "r_i": 83,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.9737569689750671,
+        "support": 47,
+        "hits": 41
+      },
+      {
+        "rule": "ngoorgs3^-1 + exportbooks^-1 => intergovorgs3",
+        "r_i": 83,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.973405122756958,
+        "support": 48,
+        "hits": 40
+      },
+      {
+        "rule": "commonbloc1 + relbooktranslations => intergovorgs",
+        "r_i": 7,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9731991291046143,
+        "support": 121,
+        "hits": 80
+      },
+      {
+        "rule": "ngoorgs3 + relbooktranslations => treaties",
+        "r_i": 28,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9730803370475769,
+        "support": 108,
+        "hits": 61
+      },
+      {
+        "rule": "intergovorgs3^-1 + relbooktranslations => treaties",
+        "r_i": 76,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9730368852615356,
+        "support": 92,
+        "hits": 70
+      },
+      {
+        "rule": "unweightedunvote + booktranslations => treaties",
+        "r_i": 51,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9729619026184082,
+        "support": 58,
+        "hits": 46
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex => embassy",
+        "r_i": 7,
+        "r_j": 3,
+        "r_k": 14,
+        "confidence": 0.9728426337242126,
+        "support": 236,
+        "hits": 137
+      },
+      {
+        "rule": "independence^-1 + relbooktranslations => treaties",
+        "r_i": 74,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9726121425628662,
+        "support": 79,
+        "hits": 54
+      },
+      {
+        "rule": "reldiplomacy^-1 + weightedunvote^-1 => relintergovorgs",
+        "r_i": 88,
+        "r_j": 109,
+        "r_k": 38,
+        "confidence": 0.9717143177986145,
+        "support": 116,
+        "hits": 97
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => treaties",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9716591238975525,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "blockpositionindex^-1 + booktranslations => intergovorgs",
+        "r_i": 58,
+        "r_j": 4,
+        "r_k": 20,
+        "confidence": 0.9716112613677979,
+        "support": 85,
+        "hits": 52
+      },
+      {
+        "rule": "embassy^-1 + exportbooks^-1 => intergovorgs3",
+        "r_i": 69,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9715551733970642,
+        "support": 83,
+        "hits": 66
+      },
+      {
+        "rule": "conferences^-1 + exportbooks^-1 => intergovorgs",
+        "r_i": 64,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9715050458908081,
+        "support": 52,
+        "hits": 44
+      },
+      {
+        "rule": "commonbloc1^-1 + booktranslations => intergovorgs3",
+        "r_i": 62,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9712769985198975,
+        "support": 138,
+        "hits": 79
+      },
+      {
+        "rule": "intergovorgs3 + students => intergovorgs3",
+        "r_i": 21,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9709212183952332,
+        "support": 70,
+        "hits": 56
+      },
+      {
+        "rule": "independence + eemigrants => intergovorgs3",
+        "r_i": 19,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9707391262054443,
+        "support": 44,
+        "hits": 34
+      },
+      {
+        "rule": "timesinceally + exportbooks^-1 => intergovorgs",
+        "r_i": 45,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9706376194953918,
+        "support": 70,
+        "hits": 62
+      },
+      {
+        "rule": "intergovorgs + exportbooks^-1 => intergovorgs",
+        "r_i": 20,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.970598578453064,
+        "support": 74,
+        "hits": 69
+      },
+      {
+        "rule": "intergovorgs + relexportbooks^-1 => intergovorgs",
+        "r_i": 20,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.970598578453064,
+        "support": 74,
+        "hits": 69
+      },
+      {
+        "rule": "ngo^-1 + relexportbooks^-1 => intergovorgs",
+        "r_i": 82,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9704141020774841,
+        "support": 61,
+        "hits": 58
+      },
+      {
+        "rule": "timesinceally^-1 + relstudents => intergovorgs3",
+        "r_i": 100,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9699831604957581,
+        "support": 47,
+        "hits": 40
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => intergovorgs",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 20,
+        "confidence": 0.9698362350463867,
+        "support": 124,
+        "hits": 77
+      },
+      {
+        "rule": "commonbloc1 + booktranslations => treaties",
+        "r_i": 7,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9697954058647156,
+        "support": 135,
+        "hits": 68
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => intergovorgs3",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9697365164756775,
+        "support": 124,
+        "hits": 79
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex^-1 => embassy",
+        "r_i": 7,
+        "r_j": 58,
+        "r_k": 14,
+        "confidence": 0.9696930646896362,
+        "support": 237,
+        "hits": 132
+      },
+      {
+        "rule": "unweightedunvote + relbooktranslations => treaties",
+        "r_i": 51,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9695955514907837,
+        "support": 53,
+        "hits": 41
+      },
+      {
+        "rule": "unweightedunvote^-1 + relbooktranslations => treaties",
+        "r_i": 106,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9688775539398193,
+        "support": 53,
+        "hits": 41
+      },
+      {
+        "rule": "conferences + relbooktranslations => intergovorgs",
+        "r_i": 9,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9688586592674255,
+        "support": 63,
+        "hits": 47
+      },
+      {
+        "rule": "embassy + relbooktranslations => intergovorgs",
+        "r_i": 14,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9686369895935059,
+        "support": 138,
+        "hits": 106
+      },
+      {
+        "rule": "ngoorgs3^-1 + reltourism^-1 => treaties",
+        "r_i": 83,
+        "r_j": 96,
+        "r_k": 49,
+        "confidence": 0.9686006903648376,
+        "support": 73,
+        "hits": 57
+      },
+      {
+        "rule": "weightedunvote^-1 + relintergovorgs => intergovorgs",
+        "r_i": 109,
+        "r_j": 38,
+        "r_k": 20,
+        "confidence": 0.9685063362121582,
+        "support": 175,
+        "hits": 132
+      },
+      {
+        "rule": "embassy + exportbooks^-1 => intergovorgs",
+        "r_i": 14,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9682775139808655,
+        "support": 84,
+        "hits": 65
+      },
+      {
+        "rule": "timesinceally + students => intergovorgs3",
+        "r_i": 45,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9682703018188477,
+        "support": 56,
+        "hits": 45
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => independence",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.9682019948959351,
+        "support": 57,
+        "hits": 44
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => independence",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.96803879737854,
+        "support": 58,
+        "hits": 43
+      },
+      {
+        "rule": "ngo + relexportbooks^-1 => treaties",
+        "r_i": 27,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9679701328277588,
+        "support": 59,
+        "hits": 50
+      },
+      {
+        "rule": "blockpositionindex + booktranslations => independence",
+        "r_i": 3,
+        "r_j": 4,
+        "r_k": 19,
+        "confidence": 0.967960000038147,
+        "support": 87,
+        "hits": 57
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => independence",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.9678455591201782,
+        "support": 137,
+        "hits": 73
+      },
+      {
+        "rule": "embassy + relexportbooks^-1 => intergovorgs",
+        "r_i": 14,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9672122001647949,
+        "support": 87,
+        "hits": 69
+      },
+      {
+        "rule": "timesinceally^-1 + students => intergovorgs3",
+        "r_i": 100,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9672078490257263,
+        "support": 54,
+        "hits": 43
+      }
+    ]
+  },
+  {
+    "dataset": "KINSHIP",
+    "N": 104,
+    "M": 25,
+    "train_n": 8544,
+    "valid_n": 1068,
+    "test_n": 1074,
+    "test_eval_n": 1074,
+    "params": {
+      "T_thresh": 0.3803925243084487,
+      "W_RR_sigmoid_k": 1.6284765129487637,
+      "C_activity_threshold": 0.25,
+      "C_rule_threshold": 0.07287721406968567,
+      "C_min_support": 2,
+      "agg_mode": "add",
+      "alpha": 0.48065309985453186,
+      "learn_cache_reverse": true
+    },
+    "best_valid_MRR": 0.6733318283135334,
+    "tuning_sec": 108.58254772401415,
+    "train_timing": {
+      "model_init_sec": 0.00016886997036635876,
+      "encode_sec": 0.005844457074999809,
+      "wrr_train_sec": 0.08996363682672381,
+      "c_train_sec": 9.767423027893528,
+      "total_train_sec": 9.863401327980682
+    },
+    "C_learning_stats": {
+      "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+      "T": 5,
+      "activity_threshold": 0.25,
+      "antecedent_pairs_with_support": 2350,
+      "path_experience_samples": 2779932,
+      "unique_endpoint_samples": 2779932,
+      "active_rules": 6327,
+      "erz_cache_entries_added": 0
+    },
+    "no_C": {
+      "MR": 17.967411545623836,
+      "MRR": 0.4546174541644052,
+      "Hits@1": 33.05400372439479,
+      "Hits@3": 52.886405959031656,
+      "Hits@10": 68.90130353817506,
+      "n_eval": 1074
+    },
+    "with_C": {
+      "MR": 4.262569832402234,
+      "MRR": 0.6424980505792834,
+      "Hits@1": 52.60707635009311,
+      "Hits@3": 70.94972067039106,
+      "Hits@10": 87.89571694599627,
+      "n_eval": 1074
+    },
+    "delta_MRR": 0.18788059641487825,
+    "delta_Hits@1": 19.55307262569832,
+    "no_C_eval_sec": 0.01441568904556334,
+    "with_C_eval_sec": 0.8274715291336179,
+    "active_rules": 6327,
+    "rules_with_any_inverse": 4775,
+    "prediction_changes": {
+      "queries_checked": 100,
+      "prediction_dict_changed": 100,
+      "true_tail_score_changed": 100
+    },
+    "top_rules": [
+      {
+        "rule": "term2^-1 + term22 => term6",
+        "r_i": 37,
+        "r_j": 15,
+        "r_k": 21,
+        "confidence": 0.9776174426078796,
+        "support": 175,
+        "hits": 118
+      },
+      {
+        "rule": "term11 + term11 => term11",
+        "r_i": 3,
+        "r_j": 3,
+        "r_k": 3,
+        "confidence": 0.9591560363769531,
+        "support": 2910,
+        "hits": 1474
+      },
+      {
+        "rule": "term12 + term6 => term7",
+        "r_i": 4,
+        "r_j": 21,
+        "r_k": 22,
+        "confidence": 0.9484381079673767,
+        "support": 846,
+        "hits": 531
+      },
+      {
+        "rule": "term5^-1 + term12^-1 => term16",
+        "r_i": 45,
+        "r_j": 29,
+        "r_k": 8,
+        "confidence": 0.9399752616882324,
+        "support": 1097,
+        "hits": 607
+      },
+      {
+        "rule": "term5^-1 + term4^-1 => term16",
+        "r_i": 45,
+        "r_j": 44,
+        "r_k": 8,
+        "confidence": 0.9373413920402527,
+        "support": 1532,
+        "hits": 439
+      },
+      {
+        "rule": "term5^-1 + term4 => term16",
+        "r_i": 45,
+        "r_j": 19,
+        "r_k": 8,
+        "confidence": 0.9293273091316223,
+        "support": 1606,
+        "hits": 467
+      },
+      {
+        "rule": "term6 + term17 => term8",
+        "r_i": 21,
+        "r_j": 9,
+        "r_k": 23,
+        "confidence": 0.9225526452064514,
+        "support": 957,
+        "hits": 543
+      },
+      {
+        "rule": "term2^-1 + term22^-1 => term6",
+        "r_i": 37,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9218378067016602,
+        "support": 163,
+        "hits": 112
+      },
+      {
+        "rule": "term2^-1 + term5 => term5",
+        "r_i": 37,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.9115043878555298,
+        "support": 165,
+        "hits": 102
+      },
+      {
+        "rule": "term12 + term12 => term9",
+        "r_i": 4,
+        "r_j": 4,
+        "r_k": 24,
+        "confidence": 0.8868769407272339,
+        "support": 523,
+        "hits": 269
+      },
+      {
+        "rule": "term22^-1 + term17 => term8",
+        "r_i": 40,
+        "r_j": 9,
+        "r_k": 23,
+        "confidence": 0.8752813339233398,
+        "support": 380,
+        "hits": 183
+      },
+      {
+        "rule": "term22 + term17 => term8",
+        "r_i": 15,
+        "r_j": 9,
+        "r_k": 23,
+        "confidence": 0.8701134324073792,
+        "support": 394,
+        "hits": 198
+      },
+      {
+        "rule": "term11 + term9 => term9",
+        "r_i": 3,
+        "r_j": 24,
+        "r_k": 24,
+        "confidence": 0.8678362369537354,
+        "support": 2552,
+        "hits": 883
+      },
+      {
+        "rule": "term16^-1 + term19^-1 => term0",
+        "r_i": 33,
+        "r_j": 36,
+        "r_k": 0,
+        "confidence": 0.8677947521209717,
+        "support": 78,
+        "hits": 38
+      },
+      {
+        "rule": "term6 + term17^-1 => term8",
+        "r_i": 21,
+        "r_j": 34,
+        "r_k": 23,
+        "confidence": 0.8648054003715515,
+        "support": 961,
+        "hits": 553
+      },
+      {
+        "rule": "term22^-1 + term17^-1 => term8",
+        "r_i": 40,
+        "r_j": 34,
+        "r_k": 23,
+        "confidence": 0.8642277121543884,
+        "support": 587,
+        "hits": 301
+      },
+      {
+        "rule": "term7^-1 + term14 => term5",
+        "r_i": 47,
+        "r_j": 6,
+        "r_k": 20,
+        "confidence": 0.863885760307312,
+        "support": 210,
+        "hits": 38
+      },
+      {
+        "rule": "term10^-1 + term9 => term9",
+        "r_i": 27,
+        "r_j": 24,
+        "r_k": 24,
+        "confidence": 0.8607341647148132,
+        "support": 1741,
+        "hits": 663
+      },
+      {
+        "rule": "term9 + term17^-1 => term21",
+        "r_i": 24,
+        "r_j": 34,
+        "r_k": 14,
+        "confidence": 0.860158383846283,
+        "support": 1141,
+        "hits": 100
+      },
+      {
+        "rule": "term1 + term22 => term6",
+        "r_i": 1,
+        "r_j": 15,
+        "r_k": 21,
+        "confidence": 0.858429491519928,
+        "support": 481,
+        "hits": 156
+      },
+      {
+        "rule": "term9 + term6 => term6",
+        "r_i": 24,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.854529619216919,
+        "support": 893,
+        "hits": 544
+      },
+      {
+        "rule": "term12^-1 + term2 => term17",
+        "r_i": 29,
+        "r_j": 12,
+        "r_k": 9,
+        "confidence": 0.8516256213188171,
+        "support": 265,
+        "hits": 68
+      },
+      {
+        "rule": "term22 + term17^-1 => term8",
+        "r_i": 15,
+        "r_j": 34,
+        "r_k": 23,
+        "confidence": 0.8482040762901306,
+        "support": 607,
+        "hits": 308
+      },
+      {
+        "rule": "term17 + term6^-1 => term16",
+        "r_i": 9,
+        "r_j": 46,
+        "r_k": 8,
+        "confidence": 0.8454446792602539,
+        "support": 961,
+        "hits": 501
+      },
+      {
+        "rule": "term5 + term9 => term5",
+        "r_i": 20,
+        "r_j": 24,
+        "r_k": 20,
+        "confidence": 0.8417574763298035,
+        "support": 1296,
+        "hits": 869
+      },
+      {
+        "rule": "term5^-1 + term13^-1 => term16",
+        "r_i": 45,
+        "r_j": 30,
+        "r_k": 8,
+        "confidence": 0.836781919002533,
+        "support": 1483,
+        "hits": 764
+      },
+      {
+        "rule": "term5 + term17^-1 => term7",
+        "r_i": 20,
+        "r_j": 34,
+        "r_k": 22,
+        "confidence": 0.8367481231689453,
+        "support": 1274,
+        "hits": 759
+      },
+      {
+        "rule": "term2^-1 + term6 => term6",
+        "r_i": 37,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.8367143869400024,
+        "support": 235,
+        "hits": 165
+      },
+      {
+        "rule": "term19^-1 + term4 => term18",
+        "r_i": 36,
+        "r_j": 19,
+        "r_k": 10,
+        "confidence": 0.8360854983329773,
+        "support": 92,
+        "hits": 45
+      },
+      {
+        "rule": "term16^-1 + term10 => term7",
+        "r_i": 33,
+        "r_j": 2,
+        "r_k": 22,
+        "confidence": 0.8342423439025879,
+        "support": 3312,
+        "hits": 1933
+      },
+      {
+        "rule": "term25 + term16 => term15",
+        "r_i": 17,
+        "r_j": 8,
+        "r_k": 7,
+        "confidence": 0.8305829167366028,
+        "support": 60,
+        "hits": 45
+      },
+      {
+        "rule": "term17 + term22^-1 => term7",
+        "r_i": 9,
+        "r_j": 40,
+        "r_k": 22,
+        "confidence": 0.8299185037612915,
+        "support": 607,
+        "hits": 216
+      },
+      {
+        "rule": "term16^-1 + term9 => term8",
+        "r_i": 33,
+        "r_j": 24,
+        "r_k": 23,
+        "confidence": 0.8286091089248657,
+        "support": 3495,
+        "hits": 1866
+      },
+      {
+        "rule": "term16^-1 + term25^-1 => term5",
+        "r_i": 33,
+        "r_j": 42,
+        "r_k": 20,
+        "confidence": 0.8251962065696716,
+        "support": 60,
+        "hits": 36
+      },
+      {
+        "rule": "term9 + term17 => term21",
+        "r_i": 24,
+        "r_j": 9,
+        "r_k": 14,
+        "confidence": 0.8223771452903748,
+        "support": 1449,
+        "hits": 154
+      },
+      {
+        "rule": "term14^-1 + term18^-1 => term16",
+        "r_i": 31,
+        "r_j": 35,
+        "r_k": 8,
+        "confidence": 0.8182884454727173,
+        "support": 209,
+        "hits": 86
+      },
+      {
+        "rule": "term11 + term9^-1 => term11",
+        "r_i": 3,
+        "r_j": 49,
+        "r_k": 3,
+        "confidence": 0.8091199398040771,
+        "support": 1818,
+        "hits": 905
+      },
+      {
+        "rule": "term17 + term22 => term7",
+        "r_i": 9,
+        "r_j": 15,
+        "r_k": 22,
+        "confidence": 0.8019735813140869,
+        "support": 587,
+        "hits": 197
+      },
+      {
+        "rule": "term11 + term5 => term5",
+        "r_i": 3,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.8017170429229736,
+        "support": 2526,
+        "hits": 1224
+      },
+      {
+        "rule": "term10^-1 + term5 => term5",
+        "r_i": 27,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.801613986492157,
+        "support": 1691,
+        "hits": 908
+      },
+      {
+        "rule": "term14^-1 + term6^-1 => term16",
+        "r_i": 31,
+        "r_j": 46,
+        "r_k": 8,
+        "confidence": 0.7998870015144348,
+        "support": 47,
+        "hits": 23
+      },
+      {
+        "rule": "term8 + term25^-1 => term5",
+        "r_i": 23,
+        "r_j": 42,
+        "r_k": 20,
+        "confidence": 0.7962837815284729,
+        "support": 79,
+        "hits": 45
+      },
+      {
+        "rule": "term5^-1 + term18 => term1",
+        "r_i": 45,
+        "r_j": 10,
+        "r_k": 1,
+        "confidence": 0.7866384983062744,
+        "support": 1529,
+        "hits": 246
+      },
+      {
+        "rule": "term17 + term17^-1 => term10",
+        "r_i": 9,
+        "r_j": 34,
+        "r_k": 2,
+        "confidence": 0.7857834696769714,
+        "support": 1100,
+        "hits": 126
+      },
+      {
+        "rule": "term9 + term5 => term5",
+        "r_i": 24,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.7852460741996765,
+        "support": 1244,
+        "hits": 820
+      },
+      {
+        "rule": "term17^-1 + term6^-1 => term16",
+        "r_i": 34,
+        "r_j": 46,
+        "r_k": 8,
+        "confidence": 0.7844846248626709,
+        "support": 957,
+        "hits": 510
+      },
+      {
+        "rule": "term21 + term5 => term8",
+        "r_i": 14,
+        "r_j": 20,
+        "r_k": 23,
+        "confidence": 0.7825891375541687,
+        "support": 357,
+        "hits": 142
+      },
+      {
+        "rule": "term12 + term13 => term10",
+        "r_i": 4,
+        "r_j": 5,
+        "r_k": 2,
+        "confidence": 0.7804012298583984,
+        "support": 919,
+        "hits": 360
+      },
+      {
+        "rule": "term9^-1 + term8^-1 => term16",
+        "r_i": 49,
+        "r_j": 48,
+        "r_k": 8,
+        "confidence": 0.7788279056549072,
+        "support": 2113,
+        "hits": 887
+      },
+      {
+        "rule": "term0^-1 + term7 => term7",
+        "r_i": 25,
+        "r_j": 22,
+        "r_k": 22,
+        "confidence": 0.7764778137207031,
+        "support": 1283,
+        "hits": 416
+      },
+      {
+        "rule": "term25 + term8^-1 => term15",
+        "r_i": 17,
+        "r_j": 48,
+        "r_k": 7,
+        "confidence": 0.7750959396362305,
+        "support": 79,
+        "hits": 53
+      },
+      {
+        "rule": "term10 + term22 => term22",
+        "r_i": 2,
+        "r_j": 15,
+        "r_k": 15,
+        "confidence": 0.7687860727310181,
+        "support": 1105,
+        "hits": 218
+      },
+      {
+        "rule": "term9 + term3 => term3",
+        "r_i": 24,
+        "r_j": 18,
+        "r_k": 18,
+        "confidence": 0.765556812286377,
+        "support": 621,
+        "hits": 201
+      },
+      {
+        "rule": "term8 + term9 => term8",
+        "r_i": 23,
+        "r_j": 24,
+        "r_k": 23,
+        "confidence": 0.763998806476593,
+        "support": 2113,
+        "hits": 1100
+      },
+      {
+        "rule": "term17 + term17 => term10",
+        "r_i": 9,
+        "r_j": 9,
+        "r_k": 2,
+        "confidence": 0.761833906173706,
+        "support": 1031,
+        "hits": 152
+      },
+      {
+        "rule": "term1 + term25^-1 => term4",
+        "r_i": 1,
+        "r_j": 42,
+        "r_k": 19,
+        "confidence": 0.7617666721343994,
+        "support": 20,
+        "hits": 17
+      },
+      {
+        "rule": "term10^-1 + term22^-1 => term22",
+        "r_i": 27,
+        "r_j": 40,
+        "r_k": 15,
+        "confidence": 0.7589403986930847,
+        "support": 659,
+        "hits": 235
+      },
+      {
+        "rule": "term5 + term2 => term22",
+        "r_i": 20,
+        "r_j": 12,
+        "r_k": 15,
+        "confidence": 0.7588862776756287,
+        "support": 1204,
+        "hits": 202
+      },
+      {
+        "rule": "term10 + term10 => term10",
+        "r_i": 2,
+        "r_j": 2,
+        "r_k": 2,
+        "confidence": 0.7572023868560791,
+        "support": 1177,
+        "hits": 588
+      },
+      {
+        "rule": "term10 + term22^-1 => term22",
+        "r_i": 2,
+        "r_j": 40,
+        "r_k": 15,
+        "confidence": 0.74784255027771,
+        "support": 1058,
+        "hits": 224
+      },
+      {
+        "rule": "term11^-1 + term22 => term22",
+        "r_i": 28,
+        "r_j": 15,
+        "r_k": 15,
+        "confidence": 0.7457907795906067,
+        "support": 950,
+        "hits": 204
+      },
+      {
+        "rule": "term13^-1 + term12 => term9",
+        "r_i": 30,
+        "r_j": 4,
+        "r_k": 24,
+        "confidence": 0.7456701993942261,
+        "support": 1035,
+        "hits": 363
+      },
+      {
+        "rule": "term18 + term14 => term8",
+        "r_i": 10,
+        "r_j": 6,
+        "r_k": 23,
+        "confidence": 0.7445721626281738,
+        "support": 209,
+        "hits": 105
+      },
+      {
+        "rule": "term5 + term7 => term21",
+        "r_i": 20,
+        "r_j": 22,
+        "r_k": 14,
+        "confidence": 0.7415838241577148,
+        "support": 2332,
+        "hits": 156
+      },
+      {
+        "rule": "term11 + term6 => term6",
+        "r_i": 3,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.7412723898887634,
+        "support": 2278,
+        "hits": 1109
+      },
+      {
+        "rule": "term18 + term10 => term22",
+        "r_i": 10,
+        "r_j": 2,
+        "r_k": 15,
+        "confidence": 0.7406137585639954,
+        "support": 1776,
+        "hits": 230
+      },
+      {
+        "rule": "term5^-1 + term9^-1 => term15",
+        "r_i": 45,
+        "r_j": 49,
+        "r_k": 7,
+        "confidence": 0.7399945259094238,
+        "support": 1244,
+        "hits": 822
+      },
+      {
+        "rule": "term18^-1 + term12 => term8",
+        "r_i": 35,
+        "r_j": 4,
+        "r_k": 23,
+        "confidence": 0.7399482727050781,
+        "support": 1228,
+        "hits": 666
+      },
+      {
+        "rule": "term11^-1 + term10 => term10",
+        "r_i": 28,
+        "r_j": 2,
+        "r_k": 2,
+        "confidence": 0.7394445538520813,
+        "support": 1633,
+        "hits": 835
+      },
+      {
+        "rule": "term11 + term22^-1 => term22",
+        "r_i": 3,
+        "r_j": 40,
+        "r_k": 15,
+        "confidence": 0.7393629550933838,
+        "support": 937,
+        "hits": 206
+      },
+      {
+        "rule": "term19^-1 + term4^-1 => term18",
+        "r_i": 36,
+        "r_j": 44,
+        "r_k": 10,
+        "confidence": 0.7386334538459778,
+        "support": 98,
+        "hits": 45
+      },
+      {
+        "rule": "term2 + term2 => term0",
+        "r_i": 12,
+        "r_j": 12,
+        "r_k": 0,
+        "confidence": 0.7383192181587219,
+        "support": 118,
+        "hits": 61
+      },
+      {
+        "rule": "term12^-1 + term10 => term7",
+        "r_i": 29,
+        "r_j": 2,
+        "r_k": 22,
+        "confidence": 0.736507773399353,
+        "support": 1088,
+        "hits": 129
+      },
+      {
+        "rule": "term10^-1 + term4^-1 => term4",
+        "r_i": 27,
+        "r_j": 44,
+        "r_k": 19,
+        "confidence": 0.7349735498428345,
+        "support": 1362,
+        "hits": 327
+      },
+      {
+        "rule": "term10^-1 + term11^-1 => term10",
+        "r_i": 27,
+        "r_j": 28,
+        "r_k": 2,
+        "confidence": 0.7349211573600769,
+        "support": 2804,
+        "hits": 518
+      },
+      {
+        "rule": "term14^-1 + term18 => term16",
+        "r_i": 31,
+        "r_j": 10,
+        "r_k": 8,
+        "confidence": 0.7348803877830505,
+        "support": 212,
+        "hits": 86
+      },
+      {
+        "rule": "term8 + term14 => term5",
+        "r_i": 23,
+        "r_j": 6,
+        "r_k": 20,
+        "confidence": 0.7295877933502197,
+        "support": 283,
+        "hits": 93
+      },
+      {
+        "rule": "term21^-1 + term5 => term8",
+        "r_i": 39,
+        "r_j": 20,
+        "r_k": 23,
+        "confidence": 0.7272804379463196,
+        "support": 465,
+        "hits": 208
+      },
+      {
+        "rule": "term22^-1 + term6 => term10",
+        "r_i": 40,
+        "r_j": 21,
+        "r_k": 2,
+        "confidence": 0.7267858386039734,
+        "support": 679,
+        "hits": 183
+      },
+      {
+        "rule": "term22 + term6 => term10",
+        "r_i": 15,
+        "r_j": 21,
+        "r_k": 2,
+        "confidence": 0.7261570692062378,
+        "support": 698,
+        "hits": 185
+      },
+      {
+        "rule": "term10^-1 + term6 => term6",
+        "r_i": 27,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.7259954214096069,
+        "support": 1574,
+        "hits": 861
+      },
+      {
+        "rule": "term8^-1 + term0 => term16",
+        "r_i": 48,
+        "r_j": 0,
+        "r_k": 8,
+        "confidence": 0.7252476215362549,
+        "support": 1118,
+        "hits": 318
+      },
+      {
+        "rule": "term13 + term4^-1 => term0",
+        "r_i": 5,
+        "r_j": 44,
+        "r_k": 0,
+        "confidence": 0.7248430848121643,
+        "support": 1061,
+        "hits": 161
+      },
+      {
+        "rule": "term11 + term20^-1 => term12",
+        "r_i": 3,
+        "r_j": 38,
+        "r_k": 4,
+        "confidence": 0.7244434356689453,
+        "support": 1196,
+        "hits": 173
+      },
+      {
+        "rule": "term10^-1 + term10 => term10",
+        "r_i": 27,
+        "r_j": 2,
+        "r_k": 2,
+        "confidence": 0.7239224314689636,
+        "support": 1892,
+        "hits": 588
+      },
+      {
+        "rule": "term11^-1 + term5 => term5",
+        "r_i": 28,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.7236285209655762,
+        "support": 1818,
+        "hits": 1224
+      },
+      {
+        "rule": "term10 + term5 => term5",
+        "r_i": 2,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.7233837842941284,
+        "support": 1483,
+        "hits": 908
+      },
+      {
+        "rule": "term18 + term19^-1 => term4",
+        "r_i": 10,
+        "r_j": 36,
+        "r_k": 19,
+        "confidence": 0.7229844331741333,
+        "support": 92,
+        "hits": 43
+      },
+      {
+        "rule": "term11^-1 + term22^-1 => term22",
+        "r_i": 28,
+        "r_j": 40,
+        "r_k": 15,
+        "confidence": 0.7221685647964478,
+        "support": 882,
+        "hits": 199
+      },
+      {
+        "rule": "term1 + term22^-1 => term6",
+        "r_i": 1,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.7217630743980408,
+        "support": 481,
+        "hits": 150
+      },
+      {
+        "rule": "term11^-1 + term6 => term6",
+        "r_i": 28,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.7212767601013184,
+        "support": 1616,
+        "hits": 1109
+      },
+      {
+        "rule": "term11 + term11^-1 => term10",
+        "r_i": 3,
+        "r_j": 28,
+        "r_k": 2,
+        "confidence": 0.720907986164093,
+        "support": 4392,
+        "hits": 823
+      },
+      {
+        "rule": "term10 + term6 => term6",
+        "r_i": 2,
+        "r_j": 21,
+        "r_k": 21,
+        "confidence": 0.7195482850074768,
+        "support": 1419,
+        "hits": 861
+      },
+      {
+        "rule": "term0^-1 + term12 => term8",
+        "r_i": 25,
+        "r_j": 4,
+        "r_k": 23,
+        "confidence": 0.7194586396217346,
+        "support": 263,
+        "hits": 16
+      },
+      {
+        "rule": "term10^-1 + term22 => term22",
+        "r_i": 27,
+        "r_j": 15,
+        "r_k": 15,
+        "confidence": 0.717075765132904,
+        "support": 636,
+        "hits": 218
+      },
+      {
+        "rule": "term11 + term4^-1 => term4",
+        "r_i": 3,
+        "r_j": 44,
+        "r_k": 19,
+        "confidence": 0.7148251533508301,
+        "support": 2144,
+        "hits": 668
+      },
+      {
+        "rule": "term19^-1 + term8 => term1",
+        "r_i": 36,
+        "r_j": 23,
+        "r_k": 1,
+        "confidence": 0.7145476937294006,
+        "support": 53,
+        "hits": 23
+      },
+      {
+        "rule": "term5^-1 + term12 => term16",
+        "r_i": 45,
+        "r_j": 4,
+        "r_k": 8,
+        "confidence": 0.7129542231559753,
+        "support": 1035,
+        "hits": 597
+      },
+      {
+        "rule": "term11 + term22 => term22",
+        "r_i": 3,
+        "r_j": 15,
+        "r_k": 15,
+        "confidence": 0.7126283645629883,
+        "support": 916,
+        "hits": 204
+      },
+      {
+        "rule": "term10^-1 + term19^-1 => term8",
+        "r_i": 27,
+        "r_j": 36,
+        "r_k": 23,
+        "confidence": 0.7125275135040283,
+        "support": 56,
+        "hits": 35
+      }
+    ]
+  },
+  {
+    "dataset": "KINSHIP_1990",
+    "N": 480,
+    "M": 14,
+    "train_n": 1568,
+    "valid_n": 224,
+    "test_n": 448,
+    "test_eval_n": 448,
+    "params": {
+      "T_thresh": 0.4828160165372797,
+      "W_RR_sigmoid_k": 4.09381360859878,
+      "C_activity_threshold": 0.1,
+      "C_rule_threshold": 0.15983441136030094,
+      "C_min_support": 6,
+      "agg_mode": "add",
+      "alpha": 0.4281950267431787,
+      "learn_cache_reverse": true
+    },
+    "best_valid_MRR": 0.9482671698575137,
+    "tuning_sec": 1.2086399770341814,
+    "train_timing": {
+      "model_init_sec": 0.00012259301729500294,
+      "encode_sec": 0.0011426589917391539,
+      "wrr_train_sec": 0.011526697082445025,
+      "c_train_sec": 0.08905386412516236,
+      "total_train_sec": 0.10184666095301509
+    },
+    "C_learning_stats": {
+      "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+      "T": 5,
+      "activity_threshold": 0.1,
+      "antecedent_pairs_with_support": 292,
+      "path_experience_samples": 17574,
+      "unique_endpoint_samples": 17574,
+      "active_rules": 123,
+      "erz_cache_entries_added": 0
+    },
+    "no_C": {
+      "MR": 124.19642857142857,
+      "MRR": 0.4632523116521883,
+      "Hits@1": 45.535714285714285,
+      "Hits@3": 46.205357142857146,
+      "Hits@10": 46.651785714285715,
+      "n_eval": 448
+    },
+    "with_C": {
+      "MR": 14.517857142857142,
+      "MRR": 0.9455698795226013,
+      "Hits@1": 93.97321428571429,
+      "Hits@3": 95.08928571428571,
+      "Hits@10": 95.08928571428571,
+      "n_eval": 448
+    },
+    "delta_MRR": 0.482317567870413,
+    "delta_Hits@1": 48.43750000000001,
+    "no_C_eval_sec": 0.013860241044312716,
+    "with_C_eval_sec": 0.024249775102362037,
+    "active_rules": 123,
+    "rules_with_any_inverse": 90,
+    "prediction_changes": {
+      "queries_checked": 100,
+      "prediction_dict_changed": 90,
+      "true_tail_score_changed": 87
+    },
+    "top_rules": [
+      {
+        "rule": "mother + sibling^-1 => mother",
+        "r_i": 6,
+        "r_j": 14,
+        "r_k": 6,
+        "confidence": 0.8674677014350891,
+        "support": 32,
+        "hits": 26
+      },
+      {
+        "rule": "husband^-1 + grandfather_chain => grandmother_chain",
+        "r_i": 23,
+        "r_j": 1,
+        "r_k": 10,
+        "confidence": 0.8021239638328552,
+        "support": 57,
+        "hits": 41
+      },
+      {
+        "rule": "daughter^-1 + maternal_aunt_chain^-1 => sibling",
+        "r_i": 19,
+        "r_j": 22,
+        "r_k": 0,
+        "confidence": 0.7960724830627441,
+        "support": 21,
+        "hits": 19
+      },
+      {
+        "rule": "husband + daughter^-1 => father",
+        "r_i": 9,
+        "r_j": 19,
+        "r_k": 2,
+        "confidence": 0.7926222681999207,
+        "support": 56,
+        "hits": 47
+      },
+      {
+        "rule": "grandmother_chain + cousin_chain^-1 => grandmother_chain",
+        "r_i": 10,
+        "r_j": 21,
+        "r_k": 10,
+        "confidence": 0.7792975306510925,
+        "support": 157,
+        "hits": 106
+      },
+      {
+        "rule": "mother + sibling => mother",
+        "r_i": 6,
+        "r_j": 0,
+        "r_k": 6,
+        "confidence": 0.7763811945915222,
+        "support": 37,
+        "hits": 26
+      },
+      {
+        "rule": "grandmother_chain + cousin_chain => grandmother_chain",
+        "r_i": 10,
+        "r_j": 7,
+        "r_k": 10,
+        "confidence": 0.7742502093315125,
+        "support": 160,
+        "hits": 106
+      },
+      {
+        "rule": "grandfather_chain + cousin_chain => grandfather_chain",
+        "r_i": 1,
+        "r_j": 7,
+        "r_k": 1,
+        "confidence": 0.7681406736373901,
+        "support": 149,
+        "hits": 92
+      },
+      {
+        "rule": "father + paternal_uncle_chain^-1 => sibling",
+        "r_i": 2,
+        "r_j": 25,
+        "r_k": 0,
+        "confidence": 0.7642889618873596,
+        "support": 31,
+        "hits": 28
+      },
+      {
+        "rule": "brother^-1 + mother^-1 => daughter",
+        "r_i": 18,
+        "r_j": 20,
+        "r_k": 5,
+        "confidence": 0.7615538835525513,
+        "support": 18,
+        "hits": 15
+      },
+      {
+        "rule": "father + mother^-1 => husband",
+        "r_i": 2,
+        "r_j": 20,
+        "r_k": 9,
+        "confidence": 0.7482237815856934,
+        "support": 106,
+        "hits": 71
+      },
+      {
+        "rule": "father + sibling => father",
+        "r_i": 2,
+        "r_j": 0,
+        "r_k": 2,
+        "confidence": 0.7452077865600586,
+        "support": 35,
+        "hits": 27
+      },
+      {
+        "rule": "father + daughter => husband",
+        "r_i": 2,
+        "r_j": 5,
+        "r_k": 9,
+        "confidence": 0.7416066527366638,
+        "support": 67,
+        "hits": 47
+      },
+      {
+        "rule": "mother + brother => mother",
+        "r_i": 6,
+        "r_j": 4,
+        "r_k": 6,
+        "confidence": 0.7361352443695068,
+        "support": 18,
+        "hits": 14
+      },
+      {
+        "rule": "paternal_uncle_chain + father^-1 => brother",
+        "r_i": 11,
+        "r_j": 16,
+        "r_k": 4,
+        "confidence": 0.7356444001197815,
+        "support": 31,
+        "hits": 24
+      },
+      {
+        "rule": "son^-1 + paternal_uncle_chain^-1 => sibling",
+        "r_i": 27,
+        "r_j": 25,
+        "r_k": 0,
+        "confidence": 0.7336980104446411,
+        "support": 16,
+        "hits": 15
+      },
+      {
+        "rule": "brother + father^-1 => son",
+        "r_i": 4,
+        "r_j": 16,
+        "r_k": 13,
+        "confidence": 0.7323251962661743,
+        "support": 18,
+        "hits": 15
+      },
+      {
+        "rule": "son^-1 + father => grandfather_chain",
+        "r_i": 27,
+        "r_j": 2,
+        "r_k": 1,
+        "confidence": 0.7112991213798523,
+        "support": 46,
+        "hits": 35
+      },
+      {
+        "rule": "father + father => grandfather_chain",
+        "r_i": 2,
+        "r_j": 2,
+        "r_k": 1,
+        "confidence": 0.7107867002487183,
+        "support": 71,
+        "hits": 47
+      },
+      {
+        "rule": "husband + mother => father",
+        "r_i": 9,
+        "r_j": 6,
+        "r_k": 2,
+        "confidence": 0.7026717662811279,
+        "support": 94,
+        "hits": 71
+      },
+      {
+        "rule": "wife^-1 + grandmother_chain => grandfather_chain",
+        "r_i": 17,
+        "r_j": 10,
+        "r_k": 1,
+        "confidence": 0.6939608454704285,
+        "support": 77,
+        "hits": 50
+      },
+      {
+        "rule": "son^-1 + son^-1 => grandfather_chain",
+        "r_i": 27,
+        "r_j": 27,
+        "r_k": 1,
+        "confidence": 0.6921715140342712,
+        "support": 24,
+        "hits": 18
+      },
+      {
+        "rule": "maternal_aunt_chain + sibling^-1 => maternal_aunt_chain",
+        "r_i": 8,
+        "r_j": 14,
+        "r_k": 8,
+        "confidence": 0.6849554777145386,
+        "support": 32,
+        "hits": 21
+      },
+      {
+        "rule": "paternal_uncle_chain^-1 + paternal_uncle_chain => sibling",
+        "r_i": 25,
+        "r_j": 11,
+        "r_k": 0,
+        "confidence": 0.6756383180618286,
+        "support": 32,
+        "hits": 23
+      },
+      {
+        "rule": "daughter^-1 + sibling^-1 => mother",
+        "r_i": 19,
+        "r_j": 14,
+        "r_k": 6,
+        "confidence": 0.6723739504814148,
+        "support": 22,
+        "hits": 18
+      },
+      {
+        "rule": "paternal_uncle_chain + son => brother",
+        "r_i": 11,
+        "r_j": 13,
+        "r_k": 4,
+        "confidence": 0.6546752452850342,
+        "support": 16,
+        "hits": 13
+      },
+      {
+        "rule": "father + brother => father",
+        "r_i": 2,
+        "r_j": 4,
+        "r_k": 2,
+        "confidence": 0.6504557728767395,
+        "support": 16,
+        "hits": 12
+      },
+      {
+        "rule": "mother + brother^-1 => mother",
+        "r_i": 6,
+        "r_j": 18,
+        "r_k": 6,
+        "confidence": 0.6427503228187561,
+        "support": 18,
+        "hits": 14
+      },
+      {
+        "rule": "wife + grandfather_chain => grandmother_chain",
+        "r_i": 3,
+        "r_j": 1,
+        "r_k": 10,
+        "confidence": 0.6358790397644043,
+        "support": 74,
+        "hits": 50
+      },
+      {
+        "rule": "father + sibling^-1 => father",
+        "r_i": 2,
+        "r_j": 14,
+        "r_k": 2,
+        "confidence": 0.6314800381660461,
+        "support": 35,
+        "hits": 27
+      },
+      {
+        "rule": "maternal_aunt_chain + sibling => maternal_aunt_chain",
+        "r_i": 8,
+        "r_j": 0,
+        "r_k": 8,
+        "confidence": 0.618988573551178,
+        "support": 34,
+        "hits": 21
+      },
+      {
+        "rule": "wife + father => mother",
+        "r_i": 3,
+        "r_j": 2,
+        "r_k": 6,
+        "confidence": 0.6107543706893921,
+        "support": 101,
+        "hits": 62
+      },
+      {
+        "rule": "grandfather_chain + cousin_chain^-1 => grandfather_chain",
+        "r_i": 1,
+        "r_j": 21,
+        "r_k": 1,
+        "confidence": 0.6072020530700684,
+        "support": 159,
+        "hits": 92
+      },
+      {
+        "rule": "husband^-1 + son^-1 => mother",
+        "r_i": 23,
+        "r_j": 27,
+        "r_k": 6,
+        "confidence": 0.6009912490844727,
+        "support": 54,
+        "hits": 39
+      },
+      {
+        "rule": "son^-1 + brother => father",
+        "r_i": 27,
+        "r_j": 4,
+        "r_k": 2,
+        "confidence": 0.5933582186698914,
+        "support": 24,
+        "hits": 15
+      },
+      {
+        "rule": "brother^-1 + paternal_uncle_chain => father",
+        "r_i": 18,
+        "r_j": 11,
+        "r_k": 2,
+        "confidence": 0.5933218002319336,
+        "support": 42,
+        "hits": 24
+      },
+      {
+        "rule": "mother + maternal_aunt_chain^-1 => sibling",
+        "r_i": 6,
+        "r_j": 22,
+        "r_k": 0,
+        "confidence": 0.5876147150993347,
+        "support": 25,
+        "hits": 19
+      },
+      {
+        "rule": "grandfather_chain + grandmother_chain^-1 => husband",
+        "r_i": 1,
+        "r_j": 24,
+        "r_k": 9,
+        "confidence": 0.577723503112793,
+        "support": 65,
+        "hits": 41
+      },
+      {
+        "rule": "husband^-1 + father => mother",
+        "r_i": 23,
+        "r_j": 2,
+        "r_k": 6,
+        "confidence": 0.5577808618545532,
+        "support": 107,
+        "hits": 71
+      },
+      {
+        "rule": "sibling^-1 + mother^-1 => daughter",
+        "r_i": 14,
+        "r_j": 20,
+        "r_k": 5,
+        "confidence": 0.550126314163208,
+        "support": 37,
+        "hits": 18
+      },
+      {
+        "rule": "husband + grandmother_chain => grandfather_chain",
+        "r_i": 9,
+        "r_j": 10,
+        "r_k": 1,
+        "confidence": 0.5493437051773071,
+        "support": 60,
+        "hits": 41
+      },
+      {
+        "rule": "maternal_aunt_chain + brother => maternal_aunt_chain",
+        "r_i": 8,
+        "r_j": 4,
+        "r_k": 8,
+        "confidence": 0.5484703183174133,
+        "support": 15,
+        "hits": 10
+      },
+      {
+        "rule": "son^-1 + sibling => father",
+        "r_i": 27,
+        "r_j": 0,
+        "r_k": 2,
+        "confidence": 0.5441426634788513,
+        "support": 23,
+        "hits": 13
+      },
+      {
+        "rule": "son^-1 + sibling^-1 => father",
+        "r_i": 27,
+        "r_j": 14,
+        "r_k": 2,
+        "confidence": 0.5435164570808411,
+        "support": 23,
+        "hits": 14
+      },
+      {
+        "rule": "paternal_uncle_chain + brother => paternal_uncle_chain",
+        "r_i": 11,
+        "r_j": 4,
+        "r_k": 11,
+        "confidence": 0.5381854176521301,
+        "support": 14,
+        "hits": 11
+      },
+      {
+        "rule": "maternal_aunt_chain^-1 + maternal_aunt_chain => sibling",
+        "r_i": 22,
+        "r_j": 8,
+        "r_k": 0,
+        "confidence": 0.5361470580101013,
+        "support": 32,
+        "hits": 21
+      },
+      {
+        "rule": "sibling + paternal_uncle_chain => father",
+        "r_i": 0,
+        "r_j": 11,
+        "r_k": 2,
+        "confidence": 0.5337003469467163,
+        "support": 49,
+        "hits": 28
+      },
+      {
+        "rule": "maternal_aunt_chain + brother^-1 => maternal_aunt_chain",
+        "r_i": 8,
+        "r_j": 18,
+        "r_k": 8,
+        "confidence": 0.5280685424804688,
+        "support": 18,
+        "hits": 10
+      },
+      {
+        "rule": "father + brother^-1 => father",
+        "r_i": 2,
+        "r_j": 18,
+        "r_k": 2,
+        "confidence": 0.5268691778182983,
+        "support": 18,
+        "hits": 12
+      },
+      {
+        "rule": "brother + father => paternal_uncle_chain",
+        "r_i": 4,
+        "r_j": 2,
+        "r_k": 11,
+        "confidence": 0.5251186490058899,
+        "support": 78,
+        "hits": 24
+      },
+      {
+        "rule": "sibling^-1 + paternal_uncle_chain => father",
+        "r_i": 14,
+        "r_j": 11,
+        "r_k": 2,
+        "confidence": 0.5235803127288818,
+        "support": 33,
+        "hits": 17
+      },
+      {
+        "rule": "daughter^-1 + father => grandmother_chain",
+        "r_i": 19,
+        "r_j": 2,
+        "r_k": 10,
+        "confidence": 0.5191566944122314,
+        "support": 42,
+        "hits": 25
+      },
+      {
+        "rule": "daughter^-1 + son^-1 => grandmother_chain",
+        "r_i": 19,
+        "r_j": 27,
+        "r_k": 10,
+        "confidence": 0.5120061039924622,
+        "support": 24,
+        "hits": 14
+      },
+      {
+        "rule": "grandfather_chain + son => father",
+        "r_i": 1,
+        "r_j": 13,
+        "r_k": 2,
+        "confidence": 0.5033247470855713,
+        "support": 40,
+        "hits": 23
+      },
+      {
+        "rule": "wife + son^-1 => mother",
+        "r_i": 3,
+        "r_j": 27,
+        "r_k": 6,
+        "confidence": 0.4977964162826538,
+        "support": 58,
+        "hits": 38
+      },
+      {
+        "rule": "father + son^-1 => grandfather_chain",
+        "r_i": 2,
+        "r_j": 27,
+        "r_k": 1,
+        "confidence": 0.49770909547805786,
+        "support": 39,
+        "hits": 23
+      },
+      {
+        "rule": "maternal_aunt_chain^-1 + sibling^-1 => daughter",
+        "r_i": 22,
+        "r_j": 14,
+        "r_k": 5,
+        "confidence": 0.49163946509361267,
+        "support": 40,
+        "hits": 19
+      },
+      {
+        "rule": "son^-1 + mother^-1 => husband",
+        "r_i": 27,
+        "r_j": 20,
+        "r_k": 9,
+        "confidence": 0.48812341690063477,
+        "support": 65,
+        "hits": 39
+      },
+      {
+        "rule": "maternal_aunt_chain + daughter => sibling",
+        "r_i": 8,
+        "r_j": 5,
+        "r_k": 0,
+        "confidence": 0.4777843952178955,
+        "support": 21,
+        "hits": 14
+      },
+      {
+        "rule": "wife^-1 + daughter^-1 => father",
+        "r_i": 17,
+        "r_j": 19,
+        "r_k": 2,
+        "confidence": 0.4762059450149536,
+        "support": 61,
+        "hits": 39
+      },
+      {
+        "rule": "grandfather_chain + father^-1 => father",
+        "r_i": 1,
+        "r_j": 16,
+        "r_k": 2,
+        "confidence": 0.47607922554016113,
+        "support": 73,
+        "hits": 47
+      },
+      {
+        "rule": "sibling + mother^-1 => daughter",
+        "r_i": 0,
+        "r_j": 20,
+        "r_k": 5,
+        "confidence": 0.47124817967414856,
+        "support": 32,
+        "hits": 14
+      },
+      {
+        "rule": "daughter^-1 + brother^-1 => mother",
+        "r_i": 19,
+        "r_j": 18,
+        "r_k": 6,
+        "confidence": 0.470974862575531,
+        "support": 23,
+        "hits": 15
+      },
+      {
+        "rule": "mother^-1 + husband^-1 => son",
+        "r_i": 20,
+        "r_j": 23,
+        "r_k": 13,
+        "confidence": 0.4705629348754883,
+        "support": 94,
+        "hits": 39
+      },
+      {
+        "rule": "paternal_uncle_chain^-1 + sibling^-1 => son",
+        "r_i": 25,
+        "r_j": 14,
+        "r_k": 13,
+        "confidence": 0.4514102041721344,
+        "support": 49,
+        "hits": 15
+      },
+      {
+        "rule": "sibling^-1 + father => paternal_uncle_chain",
+        "r_i": 14,
+        "r_j": 2,
+        "r_k": 11,
+        "confidence": 0.4485713541507721,
+        "support": 127,
+        "hits": 28
+      },
+      {
+        "rule": "maternal_aunt_chain + mother^-1 => sister",
+        "r_i": 8,
+        "r_j": 20,
+        "r_k": 12,
+        "confidence": 0.43614622950553894,
+        "support": 25,
+        "hits": 15
+      },
+      {
+        "rule": "paternal_uncle_chain + son => sibling",
+        "r_i": 11,
+        "r_j": 13,
+        "r_k": 0,
+        "confidence": 0.42665427923202515,
+        "support": 16,
+        "hits": 9
+      },
+      {
+        "rule": "son^-1 + grandfather_chain^-1 => son",
+        "r_i": 27,
+        "r_j": 15,
+        "r_k": 13,
+        "confidence": 0.42625024914741516,
+        "support": 40,
+        "hits": 18
+      },
+      {
+        "rule": "paternal_uncle_chain + father^-1 => sibling",
+        "r_i": 11,
+        "r_j": 16,
+        "r_k": 0,
+        "confidence": 0.41798368096351624,
+        "support": 31,
+        "hits": 17
+      },
+      {
+        "rule": "maternal_aunt_chain + daughter => sister",
+        "r_i": 8,
+        "r_j": 5,
+        "r_k": 12,
+        "confidence": 0.41521984338760376,
+        "support": 21,
+        "hits": 11
+      },
+      {
+        "rule": "father + grandfather_chain^-1 => son",
+        "r_i": 2,
+        "r_j": 15,
+        "r_k": 13,
+        "confidence": 0.40589267015457153,
+        "support": 73,
+        "hits": 35
+      },
+      {
+        "rule": "sibling + father^-1 => son",
+        "r_i": 0,
+        "r_j": 16,
+        "r_k": 13,
+        "confidence": 0.40537673234939575,
+        "support": 35,
+        "hits": 13
+      },
+      {
+        "rule": "sibling + father => paternal_uncle_chain",
+        "r_i": 0,
+        "r_j": 2,
+        "r_k": 11,
+        "confidence": 0.402201771736145,
+        "support": 96,
+        "hits": 17
+      },
+      {
+        "rule": "maternal_aunt_chain + mother^-1 => sibling",
+        "r_i": 8,
+        "r_j": 20,
+        "r_k": 0,
+        "confidence": 0.3961293697357178,
+        "support": 25,
+        "hits": 14
+      },
+      {
+        "rule": "mother^-1 + wife => son",
+        "r_i": 20,
+        "r_j": 3,
+        "r_k": 13,
+        "confidence": 0.3953612446784973,
+        "support": 95,
+        "hits": 38
+      },
+      {
+        "rule": "daughter^-1 + sibling => mother",
+        "r_i": 19,
+        "r_j": 0,
+        "r_k": 6,
+        "confidence": 0.394848108291626,
+        "support": 24,
+        "hits": 14
+      },
+      {
+        "rule": "sibling^-1 + father^-1 => son",
+        "r_i": 14,
+        "r_j": 16,
+        "r_k": 13,
+        "confidence": 0.3927350640296936,
+        "support": 35,
+        "hits": 14
+      },
+      {
+        "rule": "paternal_uncle_chain^-1 + brother => son",
+        "r_i": 25,
+        "r_j": 4,
+        "r_k": 13,
+        "confidence": 0.39130035042762756,
+        "support": 42,
+        "hits": 13
+      },
+      {
+        "rule": "brother + son^-1 => paternal_uncle_chain",
+        "r_i": 4,
+        "r_j": 27,
+        "r_k": 11,
+        "confidence": 0.3854544460773468,
+        "support": 45,
+        "hits": 13
+      },
+      {
+        "rule": "father^-1 + wife^-1 => daughter",
+        "r_i": 16,
+        "r_j": 17,
+        "r_k": 5,
+        "confidence": 0.3827892541885376,
+        "support": 101,
+        "hits": 39
+      },
+      {
+        "rule": "paternal_uncle_chain + sibling^-1 => paternal_uncle_chain",
+        "r_i": 11,
+        "r_j": 14,
+        "r_k": 11,
+        "confidence": 0.38086238503456116,
+        "support": 35,
+        "hits": 23
+      },
+      {
+        "rule": "grandmother_chain + grandfather_chain^-1 => wife",
+        "r_i": 10,
+        "r_j": 15,
+        "r_k": 3,
+        "confidence": 0.37835410237312317,
+        "support": 65,
+        "hits": 50
+      },
+      {
+        "rule": "paternal_uncle_chain + brother^-1 => paternal_uncle_chain",
+        "r_i": 11,
+        "r_j": 18,
+        "r_k": 11,
+        "confidence": 0.377643346786499,
+        "support": 20,
+        "hits": 11
+      },
+      {
+        "rule": "paternal_uncle_chain + sibling => paternal_uncle_chain",
+        "r_i": 11,
+        "r_j": 0,
+        "r_k": 11,
+        "confidence": 0.3549722135066986,
+        "support": 36,
+        "hits": 23
+      },
+      {
+        "rule": "father^-1 + husband => daughter",
+        "r_i": 16,
+        "r_j": 9,
+        "r_k": 5,
+        "confidence": 0.3539479374885559,
+        "support": 107,
+        "hits": 47
+      },
+      {
+        "rule": "daughter^-1 + father^-1 => wife",
+        "r_i": 19,
+        "r_j": 16,
+        "r_k": 3,
+        "confidence": 0.3532305955886841,
+        "support": 67,
+        "hits": 39
+      },
+      {
+        "rule": "wife^-1 + mother => father",
+        "r_i": 17,
+        "r_j": 6,
+        "r_k": 2,
+        "confidence": 0.3522316813468933,
+        "support": 95,
+        "hits": 62
+      },
+      {
+        "rule": "maternal_aunt_chain^-1 + sibling => daughter",
+        "r_i": 22,
+        "r_j": 0,
+        "r_k": 5,
+        "confidence": 0.346495121717453,
+        "support": 35,
+        "hits": 14
+      },
+      {
+        "rule": "son^-1 + grandmother_chain^-1 => daughter",
+        "r_i": 27,
+        "r_j": 24,
+        "r_k": 5,
+        "confidence": 0.33947107195854187,
+        "support": 36,
+        "hits": 14
+      },
+      {
+        "rule": "grandmother_chain^-1 + grandmother_chain => cousin_chain",
+        "r_i": 24,
+        "r_j": 10,
+        "r_k": 7,
+        "confidence": 0.33642274141311646,
+        "support": 212,
+        "hits": 106
+      },
+      {
+        "rule": "mother + father => grandmother_chain",
+        "r_i": 6,
+        "r_j": 2,
+        "r_k": 10,
+        "confidence": 0.336373895406723,
+        "support": 66,
+        "hits": 41
+      },
+      {
+        "rule": "paternal_uncle_chain^-1 + paternal_uncle_chain => brother",
+        "r_i": 25,
+        "r_j": 11,
+        "r_k": 4,
+        "confidence": 0.33182138204574585,
+        "support": 32,
+        "hits": 11
+      },
+      {
+        "rule": "grandfather_chain^-1 + grandfather_chain => cousin_chain",
+        "r_i": 15,
+        "r_j": 1,
+        "r_k": 7,
+        "confidence": 0.3266015946865082,
+        "support": 186,
+        "hits": 92
+      },
+      {
+        "rule": "mother + son^-1 => grandmother_chain",
+        "r_i": 6,
+        "r_j": 27,
+        "r_k": 10,
+        "confidence": 0.3259154260158539,
+        "support": 37,
+        "hits": 19
+      },
+      {
+        "rule": "sister^-1 + maternal_aunt_chain => mother",
+        "r_i": 26,
+        "r_j": 8,
+        "r_k": 6,
+        "confidence": 0.30798348784446716,
+        "support": 33,
+        "hits": 15
+      },
+      {
+        "rule": "mother^-1 + grandmother_chain => father",
+        "r_i": 20,
+        "r_j": 10,
+        "r_k": 2,
+        "confidence": 0.3060680031776428,
+        "support": 120,
+        "hits": 41
+      },
+      {
+        "rule": "paternal_uncle_chain^-1 + sibling => son",
+        "r_i": 25,
+        "r_j": 0,
+        "r_k": 13,
+        "confidence": 0.3025187849998474,
+        "support": 33,
+        "hits": 9
+      },
+      {
+        "rule": "grandmother_chain + son => mother",
+        "r_i": 10,
+        "r_j": 13,
+        "r_k": 6,
+        "confidence": 0.2992311418056488,
+        "support": 36,
+        "hits": 19
+      },
+      {
+        "rule": "father + grandmother_chain^-1 => daughter",
+        "r_i": 2,
+        "r_j": 24,
+        "r_k": 5,
+        "confidence": 0.2826746702194214,
+        "support": 72,
+        "hits": 25
+      }
+    ]
+  }
+]

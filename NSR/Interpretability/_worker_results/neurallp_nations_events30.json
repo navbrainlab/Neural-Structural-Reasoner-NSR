@@ -1,0 +1,1446 @@
+{
+  "checkpoint": "/home/amax/Zixing_Jia/NSR_Dynamic/Other_Model/results/NATIONS/neurallp/experiment/ckpt/model-8",
+  "dataset": "NATIONS",
+  "events": [
+    {
+      "event_index": 0,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.5435699083485226,
+        "effective_updated_parameters": 86961.40107741335,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00019399146614696374,
+        "rule_update_locality": 0.018053225710637274,
+        "top_rule_changes": [
+          {
+            "after": 0.02365770685818853,
+            "before": 0.018513475272119117,
+            "delta": 0.005144231586069414,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.005016052568210385,
+            "before": 0.008356514803487746,
+            "delta": -0.0033404622352773607,
+            "graph_relevant": false,
+            "rule": "R_intergovorgs <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.0346500832150517,
+            "before": 0.037091599955352564,
+            "delta": -0.002441516740300867,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.004637623468104036,
+            "before": 0.006921260053918414,
+            "delta": -0.0022836365858143783,
+            "graph_relevant": false,
+            "rule": "R_intergovorgs <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.019335684784761387,
+            "before": 0.017173977905490065,
+            "delta": 0.0021617068792713218,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 1,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4820951921167433,
+        "effective_updated_parameters": 77126.55302522083,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00027449534885243076,
+        "rule_update_locality": 0.013946467597059583,
+        "top_rule_changes": [
+          {
+            "after": 0.07674946428221703,
+            "before": 0.06602425649009237,
+            "delta": 0.010725207792124658,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.04147200566842498,
+            "before": 0.037091599955352564,
+            "delta": 0.0043804057130724175,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.032105780545586965,
+            "before": 0.028594493131692746,
+            "delta": 0.0035112874138942193,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.033041142694055024,
+            "before": 0.029923370621670237,
+            "delta": 0.003117772072384787,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.02228382419419104,
+            "before": 0.01923406829727474,
+            "delta": 0.0030497558969162994,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 2,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.43892495094871586,
+        "effective_updated_parameters": 70220.09150267746,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00012131415025170571,
+        "rule_update_locality": 0.05139756559482431,
+        "top_rule_changes": [
+          {
+            "after": 0.07060772709353036,
+            "before": 0.06602425649009237,
+            "delta": 0.004583470603437986,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02270525060262335,
+            "before": 0.018513475272119117,
+            "delta": 0.004191775330504233,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.030451264783697855,
+            "before": 0.028594493131692746,
+            "delta": 0.0018567716520051097,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.02313211842061188,
+            "before": 0.021288053614227004,
+            "delta": 0.001844064806384875,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.0052233804720704735,
+            "before": 0.006897614919749408,
+            "delta": -0.0016742344476789349,
+            "graph_relevant": false,
+            "rule": "R_embassy <= inv_R_embassy o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 3,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4341814305467171,
+        "effective_updated_parameters": 69461.21362172489,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001623960240794987,
+        "rule_update_locality": 0.010002861022225355,
+        "top_rule_changes": [
+          {
+            "after": 0.07313367236887079,
+            "before": 0.06602425649009237,
+            "delta": 0.007109415878778419,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.024001515703645088,
+            "before": 0.018513475272119117,
+            "delta": 0.005488040431525971,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.031235760099755632,
+            "before": 0.028594493131692746,
+            "delta": 0.0026412669680628865,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.03900801522843244,
+            "before": 0.037091599955352564,
+            "delta": 0.0019164152730798759,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.020895326930984722,
+            "before": 0.01923406829727474,
+            "delta": 0.0016612586337099826,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 4,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4907254384032885,
+        "effective_updated_parameters": 78507.23708663491,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00012004462764262202,
+        "rule_update_locality": 0.05283775112425455,
+        "top_rule_changes": [
+          {
+            "after": 0.07093974136870979,
+            "before": 0.06602425649009237,
+            "delta": 0.004915484878617413,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022519681811443946,
+            "before": 0.018513475272119117,
+            "delta": 0.00400620653932483,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.030799764404712843,
+            "before": 0.028594493131692746,
+            "delta": 0.002205271273020098,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.023334842571968325,
+            "before": 0.021288053614227004,
+            "delta": 0.002046788957741321,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.019096710723241008,
+            "before": 0.017173977905490065,
+            "delta": 0.0019227328177509433,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 5,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.47453533833121697,
+        "effective_updated_parameters": 75917.11249690475,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001013705907330137,
+        "rule_update_locality": 0.01476722114660459,
+        "top_rule_changes": [
+          {
+            "after": 0.0714135149932979,
+            "before": 0.06602425649009237,
+            "delta": 0.005389258503205527,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022635731642361014,
+            "before": 0.018513475272119117,
+            "delta": 0.004122256370241897,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.030659035269728956,
+            "before": 0.028594493131692746,
+            "delta": 0.00206454213803621,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.02259944622997314,
+            "before": 0.021288053614227004,
+            "delta": 0.0013113926157461361,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.0205174271857526,
+            "before": 0.01923406829727474,
+            "delta": 0.001283358888477859,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 6,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4547988167140303,
+        "effective_updated_parameters": 72759.624295544,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00018612235389895172,
+        "rule_update_locality": 0.008614458410900031,
+        "top_rule_changes": [
+          {
+            "after": 0.0744458782020193,
+            "before": 0.06602425649009237,
+            "delta": 0.008421621711926924,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02310028445044634,
+            "before": 0.018513475272119117,
+            "delta": 0.004586809178327222,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.031700117440726615,
+            "before": 0.028594493131692746,
+            "delta": 0.003105624309033869,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.039529641567939096,
+            "before": 0.037091599955352564,
+            "delta": 0.002438041612586532,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.021280726097067108,
+            "before": 0.01923406829727474,
+            "delta": 0.002046657799792368,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 7,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.5758174467360669,
+        "effective_updated_parameters": 92120.42676372945,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00013046361867060697,
+        "rule_update_locality": 0.010885734875919713,
+        "top_rule_changes": [
+          {
+            "after": 0.022012243097353845,
+            "before": 0.018513475272119117,
+            "delta": 0.0034987678252347276,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.06326237588929169,
+            "before": 0.06602425649009237,
+            "delta": -0.0027618806008006813,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03436537391209423,
+            "before": 0.037091599955352564,
+            "delta": -0.0027262260432583327,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.019475814522972156,
+            "before": 0.017173977905490065,
+            "delta": 0.0023018366174820913,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          },
+          {
+            "after": 0.02344642680498297,
+            "before": 0.021288053614227004,
+            "delta": 0.0021583731907559647,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 8,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.5277255533912305,
+        "effective_updated_parameters": 84426.58948263584,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.000803501312574479,
+        "rule_update_locality": 0.06785770305065766,
+        "top_rule_changes": [
+          {
+            "after": 0.03228747940203296,
+            "before": 0.017173977905490065,
+            "delta": 0.015113501496542898,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          },
+          {
+            "after": 0.031461559724044214,
+            "before": 0.021288053614227004,
+            "delta": 0.01017350610981721,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.028740618607678965,
+            "before": 0.037091599955352564,
+            "delta": -0.008350981347673599,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02239436412740931,
+            "before": 0.018513475272119117,
+            "delta": 0.003880888855290192,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.01380970425578475,
+            "before": 0.010646393278383525,
+            "delta": 0.003163310977401225,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 9,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4786626150062701,
+        "effective_updated_parameters": 76577.4024739331,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00016421433625283578,
+        "rule_update_locality": 0.3313531550668201,
+        "top_rule_changes": [
+          {
+            "after": 0.0154125657615819,
+            "before": 0.009957883721662255,
+            "delta": 0.005454682039919645,
+            "graph_relevant": true,
+            "rule": "R_commonbloc1 <= inv_R_relintergovorgs o inv_R_relintergovorgs"
+          },
+          {
+            "after": 0.07024516032268,
+            "before": 0.06602425649009237,
+            "delta": 0.004220903832587622,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022659996375204973,
+            "before": 0.018513475272119117,
+            "delta": 0.004146521103085856,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.008146116403498004,
+            "before": 0.005610066732412005,
+            "delta": 0.0025360496710859996,
+            "graph_relevant": true,
+            "rule": "R_commonbloc1 <= inv_R_relngo o inv_R_relintergovorgs"
+          },
+          {
+            "after": 0.030463825712452902,
+            "before": 0.028594493131692746,
+            "delta": 0.0018693325807601566,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 10,
+      "neural_lp": {
+        "changed_parameter_count": 158956,
+        "effective_update_ratio": 0.421594249977612,
+        "effective_updated_parameters": 67447.49129991833,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0002054217611261927,
+        "rule_update_locality": 0.042557746500498025,
+        "top_rule_changes": [
+          {
+            "after": 0.07539597615538507,
+            "before": 0.06602425649009237,
+            "delta": 0.009371719665292697,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02305018469821652,
+            "before": 0.018513475272119117,
+            "delta": 0.004536709426097404,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03151818992117013,
+            "before": 0.028594493131692746,
+            "delta": 0.0029236967894773827,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.039561169662434115,
+            "before": 0.037091599955352564,
+            "delta": 0.002469569707081551,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.021470185040563458,
+            "before": 0.01923406829727474,
+            "delta": 0.0022361167432887186,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 11,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4119351161810319,
+        "effective_updated_parameters": 65902.20375687385,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00015542114640839985,
+        "rule_update_locality": 0.007862652251865688,
+        "top_rule_changes": [
+          {
+            "after": 0.0727344196212708,
+            "before": 0.06602425649009237,
+            "delta": 0.0067101631311784204,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.023222892638842335,
+            "before": 0.018513475272119117,
+            "delta": 0.004709417366723218,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03131400679953244,
+            "before": 0.028594493131692746,
+            "delta": 0.002719513667839693,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.023333418785391025,
+            "before": 0.021288053614227004,
+            "delta": 0.002045365171164021,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.03894867692279132,
+            "before": 0.037091599955352564,
+            "delta": 0.0018570769674387533,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 12,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.465432768122084,
+        "effective_updated_parameters": 74460.86510970724,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001575491072816068,
+        "rule_update_locality": 0.07934518643889338,
+        "top_rule_changes": [
+          {
+            "after": 0.023504845511667687,
+            "before": 0.018513475272119117,
+            "delta": 0.00499137023954857,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.07056209651439543,
+            "before": 0.06602425649009237,
+            "delta": 0.004537840024303061,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.01937215372980182,
+            "before": 0.017173977905490065,
+            "delta": 0.0021981758243117544,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          },
+          {
+            "after": 0.023388341061474374,
+            "before": 0.021288053614227004,
+            "delta": 0.0021002874472473704,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.030582606332222245,
+            "before": 0.028594493131692746,
+            "delta": 0.001988113200529499,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 13,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.401212770689121,
+        "effective_updated_parameters": 64186.82148038695,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001902883184021733,
+        "rule_update_locality": 0.0012172879130155508,
+        "top_rule_changes": [
+          {
+            "after": 0.07471901718094427,
+            "before": 0.06602425649009237,
+            "delta": 0.0086947606908519,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02313498297948918,
+            "before": 0.018513475272119117,
+            "delta": 0.004621507707370062,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.0317251679569029,
+            "before": 0.028594493131692746,
+            "delta": 0.003130674825210157,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.03964822912814912,
+            "before": 0.037091599955352564,
+            "delta": 0.0025566291727965595,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02140535897400807,
+            "before": 0.01923406829727474,
+            "delta": 0.002171290676733332,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 14,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.5213177424241772,
+        "effective_updated_parameters": 83401.45506850471,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00015626203306153322,
+        "rule_update_locality": 0.3333893771235466,
+        "top_rule_changes": [
+          {
+            "after": 0.07258110944636346,
+            "before": 0.06602425649009237,
+            "delta": 0.006556852956271092,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.024383192409254476,
+            "before": 0.018513475272119117,
+            "delta": 0.005869717137135359,
+            "graph_relevant": true,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.031186793717637454,
+            "before": 0.028594493131692746,
+            "delta": 0.002592300585944708,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.023130645677991432,
+            "before": 0.021288053614227004,
+            "delta": 0.0018425920637644283,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.018858632293199392,
+            "before": 0.017173977905490065,
+            "delta": 0.0016846543877093272,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 15,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4681875673028034,
+        "effective_updated_parameters": 74901.5833922371,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00017157194284582127,
+        "rule_update_locality": 0.009954598101805004,
+        "top_rule_changes": [
+          {
+            "after": 0.07437678202284966,
+            "before": 0.06602425649009237,
+            "delta": 0.008352525532757282,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022730240608520757,
+            "before": 0.018513475272119117,
+            "delta": 0.00421676533640164,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.04025706386380345,
+            "before": 0.037091599955352564,
+            "delta": 0.0031654639084508843,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03133394694533731,
+            "before": 0.028594493131692746,
+            "delta": 0.0027394538136445643,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.032157435615312265,
+            "before": 0.029923370621670237,
+            "delta": 0.002234064993642027,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 16,
+      "neural_lp": {
+        "changed_parameter_count": 158956,
+        "effective_update_ratio": 0.41424772572746915,
+        "effective_updated_parameters": 66272.17965733197,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00011757325255660171,
+        "rule_update_locality": 0.013132555411500263,
+        "top_rule_changes": [
+          {
+            "after": 0.023266809303654136,
+            "before": 0.018513475272119117,
+            "delta": 0.004753334031535019,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.07062130933986627,
+            "before": 0.06602425649009237,
+            "delta": 0.004597052849773894,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03055931145423074,
+            "before": 0.028594493131692746,
+            "delta": 0.001964818322537993,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.023131818329436737,
+            "before": 0.021288053614227004,
+            "delta": 0.001843764715209733,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.018976651917488273,
+            "before": 0.017173977905490065,
+            "delta": 0.0018026740119982086,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 17,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.46748120795749076,
+        "effective_updated_parameters": 74788.57861145529,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00021452293147770552,
+        "rule_update_locality": 0.007209839316412796,
+        "top_rule_changes": [
+          {
+            "after": 0.07068962336594849,
+            "before": 0.06602425649009237,
+            "delta": 0.004665366875856114,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.023116110590368482,
+            "before": 0.018513475272119117,
+            "delta": 0.004602635318249365,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.021070143604680243,
+            "before": 0.017173977905490065,
+            "delta": 0.003896165699190178,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          },
+          {
+            "after": 0.02507573147684742,
+            "before": 0.021288053614227004,
+            "delta": 0.0037876778626204158,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.0046104209734310515,
+            "before": 0.007180208877977851,
+            "delta": -0.002569787904546799,
+            "graph_relevant": false,
+            "rule": "R_tourism <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 18,
+      "neural_lp": {
+        "changed_parameter_count": 158956,
+        "effective_update_ratio": 0.5035522299392639,
+        "effective_updated_parameters": 80559.2928501433,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0002259276299733894,
+        "rule_update_locality": 0.44424451258584696,
+        "top_rule_changes": [
+          {
+            "after": 0.01415200091231725,
+            "before": 0.007666787125138677,
+            "delta": 0.006485213787178572,
+            "graph_relevant": true,
+            "rule": "R_embassy <= inv_R_embassy o inv_R_embassy"
+          },
+          {
+            "after": 0.07117361172816078,
+            "before": 0.06602425649009237,
+            "delta": 0.0051493552380684066,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02206819060145573,
+            "before": 0.018513475272119117,
+            "delta": 0.0035547153293366135,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03070838881967781,
+            "before": 0.028594493131692746,
+            "delta": 0.002113895687985066,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.0060175788323866344,
+            "before": 0.004019374686224292,
+            "delta": 0.0019982041461623426,
+            "graph_relevant": true,
+            "rule": "R_embassy <= R_timesinceally o inv_R_embassy"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 19,
+      "neural_lp": {
+        "changed_parameter_count": 158956,
+        "effective_update_ratio": 0.486463199493627,
+        "effective_updated_parameters": 77825.35558138943,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.000321319525021469,
+        "rule_update_locality": 0.04124332332596804,
+        "top_rule_changes": [
+          {
+            "after": 0.07648092047681312,
+            "before": 0.06602425649009237,
+            "delta": 0.010456663986720752,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03202163010278889,
+            "before": 0.028594493131692746,
+            "delta": 0.0034271369710961452,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.021924822410831667,
+            "before": 0.018513475272119117,
+            "delta": 0.0034113471387125505,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.04043379776185576,
+            "before": 0.037091599955352564,
+            "delta": 0.0033421978065031957,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03287309501015912,
+            "before": 0.029923370621670237,
+            "delta": 0.002949724388488884,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 20,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.5057633059732547,
+        "effective_updated_parameters": 80913.02521621324,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001999828297460746,
+        "rule_update_locality": 0.3114143744321008,
+        "top_rule_changes": [
+          {
+            "after": 0.013121794542130315,
+            "before": 0.007666787125138677,
+            "delta": 0.005455007416991639,
+            "graph_relevant": true,
+            "rule": "R_embassy <= inv_R_embassy o inv_R_embassy"
+          },
+          {
+            "after": 0.02269806721996961,
+            "before": 0.018513475272119117,
+            "delta": 0.004184591947850494,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.07010928719416037,
+            "before": 0.06602425649009237,
+            "delta": 0.004085030704068002,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.023326336878071577,
+            "before": 0.021288053614227004,
+            "delta": 0.002038283263844573,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.00599216109746769,
+            "before": 0.004019374686224292,
+            "delta": 0.0019727864112433985,
+            "graph_relevant": true,
+            "rule": "R_embassy <= R_timesinceally o inv_R_embassy"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 21,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.5445177807526178,
+        "effective_updated_parameters": 87113.0436003653,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0004990068174141662,
+        "rule_update_locality": 0.012918949648753885,
+        "top_rule_changes": [
+          {
+            "after": 0.08071569456929528,
+            "before": 0.06602425649009237,
+            "delta": 0.01469143807920291,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.04371885107372264,
+            "before": 0.037091599955352564,
+            "delta": 0.006627251118370078,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022601768077302787,
+            "before": 0.018513475272119117,
+            "delta": 0.00408829280518367,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03397812698976563,
+            "before": 0.029923370621670237,
+            "delta": 0.004054756368095391,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.032156369583608894,
+            "before": 0.028594493131692746,
+            "delta": 0.003561876451916149,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 22,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4112894480245923,
+        "effective_updated_parameters": 65798.90847387032,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0002022525992790063,
+        "rule_update_locality": 0.00865245235060378,
+        "top_rule_changes": [
+          {
+            "after": 0.07475317571075747,
+            "before": 0.06602425649009237,
+            "delta": 0.008728919220665099,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.023357443853737187,
+            "before": 0.018513475272119117,
+            "delta": 0.00484396858161807,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03173719675931642,
+            "before": 0.028594493131692746,
+            "delta": 0.003142703627623672,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.03975349294079952,
+            "before": 0.037091599955352564,
+            "delta": 0.002661892985446959,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02170312355980245,
+            "before": 0.01923406829727474,
+            "delta": 0.002469055262527709,
+            "graph_relevant": false,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 23,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.5989292896528657,
+        "effective_updated_parameters": 95817.90561724476,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.000615924582935342,
+        "rule_update_locality": 0.007003686901290396,
+        "top_rule_changes": [
+          {
+            "after": 0.02126353771738453,
+            "before": 0.037091599955352564,
+            "delta": -0.015828062237968035,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.020407779033436567,
+            "before": 0.029923370621670237,
+            "delta": -0.00951559158823367,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.022082609902024677,
+            "before": 0.018513475272119117,
+            "delta": 0.00356913462990556,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.06300071173494994,
+            "before": 0.06602425649009237,
+            "delta": -0.0030235447551424377,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.007158206783776366,
+            "before": 0.010104756729587359,
+            "delta": -0.0029465499458109926,
+            "graph_relevant": false,
+            "rule": "R_treaties <= R_relbooktranslations o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 24,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4919105380648267,
+        "effective_updated_parameters": 78696.83170068711,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0006890392788703846,
+        "rule_update_locality": 0.3428758949897666,
+        "top_rule_changes": [
+          {
+            "after": 0.07863417573363105,
+            "before": 0.06602425649009237,
+            "delta": 0.012609919243538673,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03174380982238735,
+            "before": 0.01923406829727474,
+            "delta": 0.012509741525112611,
+            "graph_relevant": true,
+            "rule": "R_exports3 <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.04499710054130235,
+            "before": 0.037091599955352564,
+            "delta": 0.007905500585949785,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.03447331666029,
+            "before": 0.029923370621670237,
+            "delta": 0.004549946038619763,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.01617546409621205,
+            "before": 0.011916459630819776,
+            "delta": 0.004259004465392274,
+            "graph_relevant": true,
+            "rule": "R_exports3 <= inv_R_economicaid o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 25,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4900721764711903,
+        "effective_updated_parameters": 78402.72693621396,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.0001787284888206652,
+        "rule_update_locality": 0.02377553986072059,
+        "top_rule_changes": [
+          {
+            "after": 0.02341347720511441,
+            "before": 0.018513475272119117,
+            "delta": 0.004900001932995293,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.07012500738063016,
+            "before": 0.06602425649009237,
+            "delta": 0.004100750890537783,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.004952598868571821,
+            "before": 0.008356514803487746,
+            "delta": -0.0034039159349159246,
+            "graph_relevant": false,
+            "rule": "R_intergovorgs <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.004512715217733747,
+            "before": 0.006921260053918414,
+            "delta": -0.002408544836184667,
+            "graph_relevant": false,
+            "rule": "R_intergovorgs <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.018889536852705942,
+            "before": 0.017173977905490065,
+            "delta": 0.0017155589472158776,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 26,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.49667194398770625,
+        "effective_updated_parameters": 79458.57094304122,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00019678669038388093,
+        "rule_update_locality": 0.08409574931719982,
+        "top_rule_changes": [
+          {
+            "after": 0.01664193946536946,
+            "before": 0.009957883721662255,
+            "delta": 0.006684055743707205,
+            "graph_relevant": false,
+            "rule": "R_commonbloc1 <= inv_R_relintergovorgs o inv_R_relintergovorgs"
+          },
+          {
+            "after": 0.0227050572108455,
+            "before": 0.018513475272119117,
+            "delta": 0.004191581938726385,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.07017733037613483,
+            "before": 0.06602425649009237,
+            "delta": 0.004153073886042455,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.006496293692131463,
+            "before": 0.00447458247653643,
+            "delta": 0.002021711215595033,
+            "graph_relevant": false,
+            "rule": "R_commonbloc1 <= inv_R_reldiplomacy o inv_R_relintergovorgs"
+          },
+          {
+            "after": 0.00762795776013487,
+            "before": 0.005610066732412005,
+            "delta": 0.0020178910277228656,
+            "graph_relevant": false,
+            "rule": "R_commonbloc1 <= inv_R_relngo o inv_R_relintergovorgs"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 27,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.4556807318785195,
+        "effective_updated_parameters": 72900.7148473893,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00015984772662791112,
+        "rule_update_locality": 0.013679550726311879,
+        "top_rule_changes": [
+          {
+            "after": 0.07283897424795946,
+            "before": 0.06602425649009237,
+            "delta": 0.0068147177578670864,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.024292066585181866,
+            "before": 0.018513475272119117,
+            "delta": 0.005778591313062749,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.031098073082225126,
+            "before": 0.028594493131692746,
+            "delta": 0.002503579950532381,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.03897491234666056,
+            "before": 0.037091599955352564,
+            "delta": 0.001883312391307998,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.022864693456377636,
+            "before": 0.021288053614227004,
+            "delta": 0.0015766398421506317,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 28,
+      "neural_lp": {
+        "changed_parameter_count": 158958,
+        "effective_update_ratio": 0.4066523246138912,
+        "effective_updated_parameters": 65057.05219637955,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00017809422456196704,
+        "rule_update_locality": 0.0052502596453684,
+        "top_rule_changes": [
+          {
+            "after": 0.0736744228019487,
+            "before": 0.06602425649009237,
+            "delta": 0.007650166311856332,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02365761691327312,
+            "before": 0.018513475272119117,
+            "delta": 0.005144141641154003,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03146741446323525,
+            "before": 0.028594493131692746,
+            "delta": 0.0028729213315425023,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.02330839108409514,
+            "before": 0.021288053614227004,
+            "delta": 0.0020203374698681345,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.039089305925440736,
+            "before": 0.037091599955352564,
+            "delta": 0.001997705970088172,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_reltourism"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 29,
+      "neural_lp": {
+        "changed_parameter_count": 158957,
+        "effective_update_ratio": 0.44717834712138216,
+        "effective_updated_parameters": 71540.48632917296,
+        "parameter_count": 159982,
+        "rule_update_energy": 0.00014787328116403257,
+        "rule_update_locality": 0.016975236520436705,
+        "top_rule_changes": [
+          {
+            "after": 0.07254836699288374,
+            "before": 0.06602425649009237,
+            "delta": 0.006524110502791364,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_reltourism o inv_R_reltourism"
+          },
+          {
+            "after": 0.02158566085225585,
+            "before": 0.018513475272119117,
+            "delta": 0.003072185580136732,
+            "graph_relevant": false,
+            "rule": "R_ngo <= inv_R_ngo o inv_R_ngo"
+          },
+          {
+            "after": 0.03123843612867112,
+            "before": 0.028594493131692746,
+            "delta": 0.0026439429969783747,
+            "graph_relevant": false,
+            "rule": "R_booktranslations <= inv_R_economicaid o inv_R_reltourism"
+          },
+          {
+            "after": 0.023552464600087593,
+            "before": 0.021288053614227004,
+            "delta": 0.002264410985860589,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_reltourism o inv_R_economicaid"
+          },
+          {
+            "after": 0.019157667227694634,
+            "before": 0.017173977905490065,
+            "delta": 0.001983689322204569,
+            "graph_relevant": false,
+            "rule": "R_treaties <= inv_R_economicaid o inv_R_economicaid"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "T_thresh": 0.022613644455269033,
+  "W_RR_sigmoid_k": 0.21526280972215273,
+  "C_activity_threshold": 0.75,
+  "C_rule_threshold": 0.30284105871864264,
+  "C_min_support": 7,
+  "agg_mode": "add",
+  "alpha": 0.2919214103158502,
+  "learn_cache_reverse": true
+}

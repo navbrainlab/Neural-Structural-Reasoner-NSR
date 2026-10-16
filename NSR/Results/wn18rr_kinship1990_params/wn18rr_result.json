@@ -1,0 +1,53 @@
+{
+  "dataset": "WN18RR",
+  "params": {
+    "T_thresh": 0.4828160165372797,
+    "W_RR_sigmoid_k": 4.09381360859878,
+    "C_activity_threshold": 0.1,
+    "C_rule_threshold": 0.15983441136030094,
+    "C_min_support": 6,
+    "agg_mode": "add",
+    "alpha": 0.4281950267431787,
+    "learn_cache_reverse": true
+  },
+  "top_rules_fraction": 1.0,
+  "train_timing": {
+    "model_init_sec": 0.011785652954131365,
+    "encode_sec": 0.3749182680621743,
+    "wrr_train_sec": 1.043359988834709,
+    "c_train_sec": 14.129965886939317,
+    "total_train_sec": 15.560037314891815
+  },
+  "train_wall_sec": 15.560040340060368,
+  "C_learning_stats": {
+    "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+    "T": 5,
+    "activity_threshold": 0.1,
+    "antecedent_pairs_with_support": 380,
+    "path_experience_samples": 3133366,
+    "unique_endpoint_samples": 3133366,
+    "active_rules": 32,
+    "erz_cache_entries_added": 0
+  },
+  "no_C": {
+    "MR": 12548.269151846785,
+    "MRR": 0.37137048265055167,
+    "Hits@1": 37.106703146374834,
+    "Hits@3": 37.14090287277701,
+    "Hits@10": 37.14090287277701,
+    "n_eval": 2924
+  },
+  "with_C": {
+    "MR": 12352.063269493845,
+    "MRR": 0.3818565005659636,
+    "Hits@1": 38.064295485636116,
+    "Hits@3": 38.303693570451436,
+    "Hits@10": 38.303693570451436,
+    "n_eval": 2924
+  },
+  "delta_MRR": 0.010486017915411927,
+  "delta_Hits@1": 0.9575923392612822,
+  "no_C_eval_sec": 6.290260802954435,
+  "with_C_eval_sec": 6.44076447095722,
+  "total_wall_sec": 28.291065613972023
+}

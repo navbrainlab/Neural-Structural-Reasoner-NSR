@@ -1,0 +1,969 @@
+[
+  {
+    "dataset": "NATIONS",
+    "N": 14,
+    "M": 55,
+    "train_n": 1592,
+    "valid_n": 199,
+    "test_n": 201,
+    "test_eval_n": 201,
+    "params": {
+      "T_thresh": 0.21536797226829557,
+      "W_RR_sigmoid_k": 0.1884708133481634,
+      "C_activity_threshold": 0.25,
+      "C_rule_threshold": 0.17742581748711594,
+      "C_min_support": 3,
+      "agg_mode": "add",
+      "alpha": 0.7592750790611211,
+      "learn_cache_reverse": true
+    },
+    "best_valid_MRR": 0.6854251415809204,
+    "tuning_sec": 276.150201133918,
+    "train_timing": {
+      "model_init_sec": 0.0009515699930489063,
+      "encode_sec": 0.0015778520610183477,
+      "wrr_train_sec": 0.005507074063643813,
+      "c_train_sec": 4.830648984992877,
+      "total_train_sec": 4.838687615003437
+    },
+    "C_learning_stats": {
+      "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+      "T": 5,
+      "activity_threshold": 0.25,
+      "antecedent_pairs_with_support": 11412,
+      "path_experience_samples": 748646,
+      "unique_endpoint_samples": 748646,
+      "active_rules": 253134,
+      "erz_cache_entries_added": 0
+    },
+    "no_C": {
+      "MR": 3.298507462686567,
+      "MRR": 0.5210735643571465,
+      "Hits@1": 32.33830845771145,
+      "Hits@3": 63.18407960199005,
+      "Hits@10": 97.51243781094527,
+      "n_eval": 201
+    },
+    "with_C": {
+      "MR": 2.36318407960199,
+      "MRR": 0.6499486693516544,
+      "Hits@1": 45.27363184079602,
+      "Hits@3": 82.08955223880598,
+      "Hits@10": 99.50248756218906,
+      "n_eval": 201
+    },
+    "delta_MRR": 0.12887510499450794,
+    "delta_Hits@1": 12.935323383084572,
+    "no_C_eval_sec": 0.0035845062229782343,
+    "with_C_eval_sec": 4.404886969132349,
+    "active_rules": 253134,
+    "rules_with_any_inverse": 189182,
+    "prediction_changes": {
+      "queries_checked": 100,
+      "prediction_dict_changed": 100,
+      "true_tail_score_changed": 100
+    },
+    "top_rules": [
+      {
+        "rule": "embassy + relbooktranslations => treaties",
+        "r_i": 14,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9956172704696655,
+        "support": 138,
+        "hits": 91
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => intergovorgs3",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 21,
+        "confidence": 0.9921619892120361,
+        "support": 90,
+        "hits": 77
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => treaties",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9913801550865173,
+        "support": 137,
+        "hits": 86
+      },
+      {
+        "rule": "timesinceally^-1 + relbooktranslations => treaties",
+        "r_i": 100,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9899950623512268,
+        "support": 90,
+        "hits": 69
+      },
+      {
+        "rule": "commonbloc1 + relbooktranslations => treaties",
+        "r_i": 7,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9897347688674927,
+        "support": 121,
+        "hits": 75
+      },
+      {
+        "rule": "timesinceally + exportbooks^-1 => intergovorgs3",
+        "r_i": 45,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9884368777275085,
+        "support": 70,
+        "hits": 60
+      },
+      {
+        "rule": "relintergovorgs^-1 + relbooktranslations => treaties",
+        "r_i": 93,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9883319735527039,
+        "support": 104,
+        "hits": 78
+      },
+      {
+        "rule": "ngoorgs3^-1 + relbooktranslations => treaties",
+        "r_i": 83,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9875586032867432,
+        "support": 92,
+        "hits": 73
+      },
+      {
+        "rule": "relngo^-1 + relbooktranslations => treaties",
+        "r_i": 94,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9869798421859741,
+        "support": 102,
+        "hits": 79
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => intergovorgs3",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.9858471155166626,
+        "support": 67,
+        "hits": 56
+      },
+      {
+        "rule": "embassy + relstudents => intergovorgs3",
+        "r_i": 14,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9846004843711853,
+        "support": 76,
+        "hits": 64
+      },
+      {
+        "rule": "commonbloc0 + commonbloc0 => commonbloc2",
+        "r_i": 6,
+        "r_j": 6,
+        "r_k": 8,
+        "confidence": 0.983817458152771,
+        "support": 68,
+        "hits": 63
+      },
+      {
+        "rule": "intergovorgs^-1 + relbooktranslations => treaties",
+        "r_i": 75,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9830701351165771,
+        "support": 91,
+        "hits": 63
+      },
+      {
+        "rule": "conferences + exportbooks^-1 => intergovorgs3",
+        "r_i": 9,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9830052852630615,
+        "support": 56,
+        "hits": 49
+      },
+      {
+        "rule": "ngo + relexportbooks^-1 => intergovorgs",
+        "r_i": 27,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9829939007759094,
+        "support": 59,
+        "hits": 58
+      },
+      {
+        "rule": "commonbloc1^-1 + relbooktranslations => treaties",
+        "r_i": 62,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9827066659927368,
+        "support": 117,
+        "hits": 71
+      },
+      {
+        "rule": "independence + relbooktranslations => treaties",
+        "r_i": 19,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9826903939247131,
+        "support": 78,
+        "hits": 56
+      },
+      {
+        "rule": "commonbloc0^-1 + commonbloc0 => commonbloc2",
+        "r_i": 61,
+        "r_j": 6,
+        "r_k": 8,
+        "confidence": 0.9820622205734253,
+        "support": 68,
+        "hits": 61
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => intergovorgs",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9820547699928284,
+        "support": 90,
+        "hits": 73
+      },
+      {
+        "rule": "ngoorgs3^-1 + eemigrants => ngo",
+        "r_i": 83,
+        "r_j": 13,
+        "r_k": 27,
+        "confidence": 0.9817520380020142,
+        "support": 38,
+        "hits": 38
+      },
+      {
+        "rule": "reldiplomacy^-1 + booktranslations => treaties",
+        "r_i": 88,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9812620282173157,
+        "support": 112,
+        "hits": 71
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => intergovorgs",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.981153130531311,
+        "support": 137,
+        "hits": 93
+      },
+      {
+        "rule": "ngo + exportbooks^-1 => intergovorgs",
+        "r_i": 27,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9808578491210938,
+        "support": 57,
+        "hits": 56
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => embassy",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 14,
+        "confidence": 0.9803769588470459,
+        "support": 124,
+        "hits": 73
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex => treaties",
+        "r_i": 7,
+        "r_j": 3,
+        "r_k": 49,
+        "confidence": 0.9802423119544983,
+        "support": 236,
+        "hits": 61
+      },
+      {
+        "rule": "ngo^-1 + relbooktranslations => treaties",
+        "r_i": 82,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9801744818687439,
+        "support": 83,
+        "hits": 64
+      },
+      {
+        "rule": "commonbloc1 + booktranslations => intergovorgs3",
+        "r_i": 7,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9798338413238525,
+        "support": 135,
+        "hits": 81
+      },
+      {
+        "rule": "timesinceally^-1 + relexportbooks^-1 => treaties",
+        "r_i": 100,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9797638058662415,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => relngo",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 39,
+        "confidence": 0.9797412157058716,
+        "support": 124,
+        "hits": 98
+      },
+      {
+        "rule": "timesinceally + relbooktranslations => treaties",
+        "r_i": 45,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9797147512435913,
+        "support": 91,
+        "hits": 67
+      },
+      {
+        "rule": "intergovorgs3 + relbooktranslations => treaties",
+        "r_i": 21,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9795368909835815,
+        "support": 108,
+        "hits": 67
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex^-1 => treaties",
+        "r_i": 7,
+        "r_j": 58,
+        "r_k": 49,
+        "confidence": 0.9793156385421753,
+        "support": 237,
+        "hits": 60
+      },
+      {
+        "rule": "intergovorgs + relbooktranslations => treaties",
+        "r_i": 20,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9791184067726135,
+        "support": 92,
+        "hits": 59
+      },
+      {
+        "rule": "ngoorgs3^-1 + relstudents => ngo",
+        "r_i": 83,
+        "r_j": 40,
+        "r_k": 27,
+        "confidence": 0.9791144132614136,
+        "support": 45,
+        "hits": 44
+      },
+      {
+        "rule": "commonbloc0 + commonbloc0^-1 => commonbloc2",
+        "r_i": 6,
+        "r_j": 61,
+        "r_k": 8,
+        "confidence": 0.9784485697746277,
+        "support": 68,
+        "hits": 62
+      },
+      {
+        "rule": "ngoorgs3^-1 + booktranslations => treaties",
+        "r_i": 83,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9783431887626648,
+        "support": 105,
+        "hits": 76
+      },
+      {
+        "rule": "independence + students => intergovorgs3",
+        "r_i": 19,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9778422117233276,
+        "support": 47,
+        "hits": 38
+      },
+      {
+        "rule": "timesinceally^-1 + eemigrants => intergovorgs3",
+        "r_i": 100,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9778342843055725,
+        "support": 50,
+        "hits": 40
+      },
+      {
+        "rule": "reldiplomacy^-1 + relbooktranslations => treaties",
+        "r_i": 88,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9774733781814575,
+        "support": 90,
+        "hits": 62
+      },
+      {
+        "rule": "timesinceally^-1 + relexportbooks^-1 => intergovorgs",
+        "r_i": 100,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.977407693862915,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "ngo + relbooktranslations => treaties",
+        "r_i": 27,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9773459434509277,
+        "support": 82,
+        "hits": 64
+      },
+      {
+        "rule": "reldiplomacy + relbooktranslations => intergovorgs",
+        "r_i": 33,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9772680997848511,
+        "support": 99,
+        "hits": 71
+      },
+      {
+        "rule": "reldiplomacy + relbooktranslations => intergovorgs3",
+        "r_i": 33,
+        "r_j": 32,
+        "r_k": 21,
+        "confidence": 0.9770357608795166,
+        "support": 99,
+        "hits": 73
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => treaties",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9767142534255981,
+        "support": 57,
+        "hits": 40
+      },
+      {
+        "rule": "commonbloc0^-1 + commonbloc0^-1 => commonbloc2",
+        "r_i": 61,
+        "r_j": 61,
+        "r_k": 8,
+        "confidence": 0.9765427112579346,
+        "support": 68,
+        "hits": 60
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => intergovorgs",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9763011932373047,
+        "support": 57,
+        "hits": 42
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => treaties",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9762274622917175,
+        "support": 58,
+        "hits": 42
+      },
+      {
+        "rule": "conferences + relexportbooks^-1 => intergovorgs3",
+        "r_i": 9,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.975986659526825,
+        "support": 50,
+        "hits": 44
+      },
+      {
+        "rule": "relstudents^-1 + intergovorgs => intergovorgs",
+        "r_i": 95,
+        "r_j": 20,
+        "r_k": 20,
+        "confidence": 0.9759233593940735,
+        "support": 49,
+        "hits": 46
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => intergovorgs",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9758556485176086,
+        "support": 58,
+        "hits": 44
+      },
+      {
+        "rule": "timesinceally + eemigrants => intergovorgs3",
+        "r_i": 45,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9754552245140076,
+        "support": 52,
+        "hits": 41
+      },
+      {
+        "rule": "conferences + exportbooks^-1 => intergovorgs",
+        "r_i": 9,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9748697876930237,
+        "support": 56,
+        "hits": 48
+      },
+      {
+        "rule": "intergovorgs3 + relexportbooks^-1 => intergovorgs",
+        "r_i": 21,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.97481769323349,
+        "support": 87,
+        "hits": 71
+      },
+      {
+        "rule": "intergovorgs3 + exportbooks^-1 => intergovorgs",
+        "r_i": 21,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9747480750083923,
+        "support": 87,
+        "hits": 70
+      },
+      {
+        "rule": "timesinceally^-1 + exportbooks^-1 => intergovorgs",
+        "r_i": 100,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9746772646903992,
+        "support": 66,
+        "hits": 52
+      },
+      {
+        "rule": "blockpositionindex^-1 + relexportbooks^-1 => relngo",
+        "r_i": 58,
+        "r_j": 91,
+        "r_k": 39,
+        "confidence": 0.974539577960968,
+        "support": 41,
+        "hits": 40
+      },
+      {
+        "rule": "exportbooks + ngoorgs3 => intergovorgs",
+        "r_i": 17,
+        "r_j": 28,
+        "r_k": 20,
+        "confidence": 0.97434401512146,
+        "support": 48,
+        "hits": 42
+      },
+      {
+        "rule": "timesinceally^-1 + exportbooks^-1 => treaties",
+        "r_i": 100,
+        "r_j": 72,
+        "r_k": 49,
+        "confidence": 0.9742184281349182,
+        "support": 66,
+        "hits": 50
+      },
+      {
+        "rule": "intergovorgs^-1 + relstudents => intergovorgs3",
+        "r_i": 75,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9740128517150879,
+        "support": 49,
+        "hits": 42
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => intergovorgs",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9737901091575623,
+        "support": 67,
+        "hits": 61
+      },
+      {
+        "rule": "ngoorgs3^-1 + relexportbooks^-1 => intergovorgs3",
+        "r_i": 83,
+        "r_j": 91,
+        "r_k": 21,
+        "confidence": 0.9737569689750671,
+        "support": 47,
+        "hits": 41
+      },
+      {
+        "rule": "ngoorgs3^-1 + exportbooks^-1 => intergovorgs3",
+        "r_i": 83,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.973405122756958,
+        "support": 48,
+        "hits": 40
+      },
+      {
+        "rule": "commonbloc1 + relbooktranslations => intergovorgs",
+        "r_i": 7,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9731991291046143,
+        "support": 121,
+        "hits": 80
+      },
+      {
+        "rule": "ngoorgs3 + relbooktranslations => treaties",
+        "r_i": 28,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9730803370475769,
+        "support": 108,
+        "hits": 61
+      },
+      {
+        "rule": "intergovorgs3^-1 + relbooktranslations => treaties",
+        "r_i": 76,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9730368852615356,
+        "support": 92,
+        "hits": 70
+      },
+      {
+        "rule": "unweightedunvote + booktranslations => treaties",
+        "r_i": 51,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9729619026184082,
+        "support": 58,
+        "hits": 46
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex => embassy",
+        "r_i": 7,
+        "r_j": 3,
+        "r_k": 14,
+        "confidence": 0.9728426337242126,
+        "support": 236,
+        "hits": 137
+      },
+      {
+        "rule": "independence^-1 + relbooktranslations => treaties",
+        "r_i": 74,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9726121425628662,
+        "support": 79,
+        "hits": 54
+      },
+      {
+        "rule": "reldiplomacy^-1 + weightedunvote^-1 => relintergovorgs",
+        "r_i": 88,
+        "r_j": 109,
+        "r_k": 38,
+        "confidence": 0.9717143177986145,
+        "support": 116,
+        "hits": 97
+      },
+      {
+        "rule": "timesinceally + relexportbooks^-1 => treaties",
+        "r_i": 45,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9716591238975525,
+        "support": 67,
+        "hits": 53
+      },
+      {
+        "rule": "blockpositionindex^-1 + booktranslations => intergovorgs",
+        "r_i": 58,
+        "r_j": 4,
+        "r_k": 20,
+        "confidence": 0.9716112613677979,
+        "support": 85,
+        "hits": 52
+      },
+      {
+        "rule": "embassy^-1 + exportbooks^-1 => intergovorgs3",
+        "r_i": 69,
+        "r_j": 72,
+        "r_k": 21,
+        "confidence": 0.9715551733970642,
+        "support": 83,
+        "hits": 66
+      },
+      {
+        "rule": "conferences^-1 + exportbooks^-1 => intergovorgs",
+        "r_i": 64,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9715050458908081,
+        "support": 52,
+        "hits": 44
+      },
+      {
+        "rule": "commonbloc1^-1 + booktranslations => intergovorgs3",
+        "r_i": 62,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9712769985198975,
+        "support": 138,
+        "hits": 79
+      },
+      {
+        "rule": "intergovorgs3 + students => intergovorgs3",
+        "r_i": 21,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9709212183952332,
+        "support": 70,
+        "hits": 56
+      },
+      {
+        "rule": "independence + eemigrants => intergovorgs3",
+        "r_i": 19,
+        "r_j": 13,
+        "r_k": 21,
+        "confidence": 0.9707391262054443,
+        "support": 44,
+        "hits": 34
+      },
+      {
+        "rule": "timesinceally + exportbooks^-1 => intergovorgs",
+        "r_i": 45,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9706376194953918,
+        "support": 70,
+        "hits": 62
+      },
+      {
+        "rule": "intergovorgs + exportbooks^-1 => intergovorgs",
+        "r_i": 20,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.970598578453064,
+        "support": 74,
+        "hits": 69
+      },
+      {
+        "rule": "intergovorgs + relexportbooks^-1 => intergovorgs",
+        "r_i": 20,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.970598578453064,
+        "support": 74,
+        "hits": 69
+      },
+      {
+        "rule": "ngo^-1 + relexportbooks^-1 => intergovorgs",
+        "r_i": 82,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9704141020774841,
+        "support": 61,
+        "hits": 58
+      },
+      {
+        "rule": "timesinceally^-1 + relstudents => intergovorgs3",
+        "r_i": 100,
+        "r_j": 40,
+        "r_k": 21,
+        "confidence": 0.9699831604957581,
+        "support": 47,
+        "hits": 40
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => intergovorgs",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 20,
+        "confidence": 0.9698362350463867,
+        "support": 124,
+        "hits": 77
+      },
+      {
+        "rule": "commonbloc1 + booktranslations => treaties",
+        "r_i": 7,
+        "r_j": 4,
+        "r_k": 49,
+        "confidence": 0.9697954058647156,
+        "support": 135,
+        "hits": 68
+      },
+      {
+        "rule": "reldiplomacy + booktranslations => intergovorgs3",
+        "r_i": 33,
+        "r_j": 4,
+        "r_k": 21,
+        "confidence": 0.9697365164756775,
+        "support": 124,
+        "hits": 79
+      },
+      {
+        "rule": "commonbloc1 + blockpositionindex^-1 => embassy",
+        "r_i": 7,
+        "r_j": 58,
+        "r_k": 14,
+        "confidence": 0.9696930646896362,
+        "support": 237,
+        "hits": 132
+      },
+      {
+        "rule": "unweightedunvote + relbooktranslations => treaties",
+        "r_i": 51,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9695955514907837,
+        "support": 53,
+        "hits": 41
+      },
+      {
+        "rule": "unweightedunvote^-1 + relbooktranslations => treaties",
+        "r_i": 106,
+        "r_j": 32,
+        "r_k": 49,
+        "confidence": 0.9688775539398193,
+        "support": 53,
+        "hits": 41
+      },
+      {
+        "rule": "conferences + relbooktranslations => intergovorgs",
+        "r_i": 9,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9688586592674255,
+        "support": 63,
+        "hits": 47
+      },
+      {
+        "rule": "embassy + relbooktranslations => intergovorgs",
+        "r_i": 14,
+        "r_j": 32,
+        "r_k": 20,
+        "confidence": 0.9686369895935059,
+        "support": 138,
+        "hits": 106
+      },
+      {
+        "rule": "ngoorgs3^-1 + reltourism^-1 => treaties",
+        "r_i": 83,
+        "r_j": 96,
+        "r_k": 49,
+        "confidence": 0.9686006903648376,
+        "support": 73,
+        "hits": 57
+      },
+      {
+        "rule": "weightedunvote^-1 + relintergovorgs => intergovorgs",
+        "r_i": 109,
+        "r_j": 38,
+        "r_k": 20,
+        "confidence": 0.9685063362121582,
+        "support": 175,
+        "hits": 132
+      },
+      {
+        "rule": "embassy + exportbooks^-1 => intergovorgs",
+        "r_i": 14,
+        "r_j": 72,
+        "r_k": 20,
+        "confidence": 0.9682775139808655,
+        "support": 84,
+        "hits": 65
+      },
+      {
+        "rule": "timesinceally + students => intergovorgs3",
+        "r_i": 45,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9682703018188477,
+        "support": 56,
+        "hits": 45
+      },
+      {
+        "rule": "blockpositionindex^-1 + relbooktranslations => independence",
+        "r_i": 58,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.9682019948959351,
+        "support": 57,
+        "hits": 44
+      },
+      {
+        "rule": "blockpositionindex + relbooktranslations => independence",
+        "r_i": 3,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.96803879737854,
+        "support": 58,
+        "hits": 43
+      },
+      {
+        "rule": "ngo + relexportbooks^-1 => treaties",
+        "r_i": 27,
+        "r_j": 91,
+        "r_k": 49,
+        "confidence": 0.9679701328277588,
+        "support": 59,
+        "hits": 50
+      },
+      {
+        "rule": "blockpositionindex + booktranslations => independence",
+        "r_i": 3,
+        "r_j": 4,
+        "r_k": 19,
+        "confidence": 0.967960000038147,
+        "support": 87,
+        "hits": 57
+      },
+      {
+        "rule": "embassy^-1 + relbooktranslations => independence",
+        "r_i": 69,
+        "r_j": 32,
+        "r_k": 19,
+        "confidence": 0.9678455591201782,
+        "support": 137,
+        "hits": 73
+      },
+      {
+        "rule": "embassy + relexportbooks^-1 => intergovorgs",
+        "r_i": 14,
+        "r_j": 91,
+        "r_k": 20,
+        "confidence": 0.9672122001647949,
+        "support": 87,
+        "hits": 69
+      },
+      {
+        "rule": "timesinceally^-1 + students => intergovorgs3",
+        "r_i": 100,
+        "r_j": 44,
+        "r_k": 21,
+        "confidence": 0.9672078490257263,
+        "support": 54,
+        "hits": 43
+      }
+    ]
+  }
+]

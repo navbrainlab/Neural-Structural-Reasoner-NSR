@@ -1,0 +1,51 @@
+{
+  "dataset": "WN18RR",
+  "n_trials": 20,
+  "best_valid_mrr": 0.47271133737441423,
+  "best_params": {
+    "W_RR_learning_algorithm": "cooccurrence",
+    "T_thresh": 0.12008684679993031,
+    "W_RR_normalize": "sigmoid",
+    "W_RR_sigmoid_k": 0.8993716843652962,
+    "agg_mode": "max",
+    "alpha": 1.7066873546728665,
+    "tail_fallback_weight": 0.0033623836779215046,
+    "concepts_fallback_weight": 0.27702845088762973,
+    "concepts_fallback_k": 10,
+    "C_activity_threshold": 0.9015053810712772,
+    "C_rule_threshold": 0.45836666277786614,
+    "C_min_support": 24
+  },
+  "c_learning_stats": {
+    "source": "matrix_sparse_path_weighted_running_mean",
+    "T": 5,
+    "activity_threshold": 0.5,
+    "antecedent_pairs_with_support": 380,
+    "path_experience_samples": 3133366,
+    "unique_endpoint_samples": 3133366,
+    "active_rules": 39,
+    "erz_cache_entries_added": 0
+  },
+  "c_train_sec": 0.896973725000862,
+  "search_sec": 363.1628899440002,
+  "final_wrr_train_sec": 1.5084839800001646,
+  "no_C": {
+    "MR": 12548.269151846785,
+    "MRR": 0.37137048265055167,
+    "Hits@1": 37.106703146374834,
+    "Hits@3": 37.14090287277701,
+    "Hits@10": 37.14090287277701,
+    "n_eval": 2924
+  },
+  "with_C": {
+    "MR": 8500.288645690835,
+    "MRR": 0.4795226032414953,
+    "Hits@1": 46.71682626538988,
+    "Hits@3": 48.837209302325576,
+    "Hits@10": 50.06839945280438,
+    "n_eval": 2924
+  },
+  "delta_MRR": 0.10815212059094365,
+  "no_C_eval_sec": 8.350766135998128,
+  "with_C_eval_sec": 17.77765532400008
+}

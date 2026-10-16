@@ -1,0 +1,53 @@
+{
+  "dataset": "NATIONS",
+  "params": {
+    "T_thresh": 0.022613644455269033,
+    "W_RR_sigmoid_k": 0.21526280972215273,
+    "C_activity_threshold": 0.75,
+    "C_rule_threshold": 0.30284105871864264,
+    "C_min_support": 7,
+    "agg_mode": "add",
+    "alpha": 0.2919214103158502,
+    "learn_cache_reverse": true
+  },
+  "top_rules_fraction": 1.0,
+  "train_timing": {
+    "model_init_sec": 0.00032382900826632977,
+    "encode_sec": 0.0018689499702304602,
+    "wrr_train_sec": 0.0056384471245110035,
+    "c_train_sec": 4.546703247120604,
+    "total_train_sec": 4.554538390832022
+  },
+  "train_wall_sec": 4.554543307982385,
+  "C_learning_stats": {
+    "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+    "T": 5,
+    "activity_threshold": 0.75,
+    "antecedent_pairs_with_support": 11412,
+    "path_experience_samples": 748646,
+    "unique_endpoint_samples": 748646,
+    "active_rules": 149799,
+    "erz_cache_entries_added": 0
+  },
+  "no_C": {
+    "MR": 1.9203980099502487,
+    "MRR": 0.7786249681772068,
+    "Hits@1": 65.67164179104478,
+    "Hits@3": 88.05970149253731,
+    "Hits@10": 97.51243781094527,
+    "n_eval": 201
+  },
+  "with_C": {
+    "MR": 1.771144278606965,
+    "MRR": 0.800255037941605,
+    "Hits@1": 68.65671641791045,
+    "Hits@3": 88.05970149253731,
+    "Hits@10": 99.00497512437812,
+    "n_eval": 201
+  },
+  "delta_MRR": 0.021630069764398185,
+  "delta_Hits@1": 2.985074626865668,
+  "no_C_eval_sec": 0.006921814987435937,
+  "with_C_eval_sec": 1.462595297023654,
+  "total_wall_sec": 6.024060419993475
+}

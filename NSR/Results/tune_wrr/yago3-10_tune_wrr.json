@@ -1,0 +1,44 @@
+{
+  "dataset": "YAGO3-10",
+  "n_trials": 10,
+  "best_valid_mrr": 0.5951556963008189,
+  "best_params": {
+    "W_RR_learning_algorithm": "online",
+    "T_thresh": 0.10230282445722771,
+    "W_RR_normalize": "sigmoid",
+    "W_RR_sigmoid_k": 2.8560867877464404,
+    "agg_mode": "add",
+    "alpha": 1.2164668090607853,
+    "tail_fallback_weight": 0.020184189891092635,
+    "concepts_fallback_weight": 0.6558307426731967,
+    "concepts_fallback_k": 9,
+    "delta_RR": 0.18143059741371448,
+    "mu_RR": 0.11590579825561909,
+    "C_activity_threshold": 0.9595412807761489,
+    "C_rule_threshold": 0.34277254252553435,
+    "C_min_support": 19
+  },
+  "c_learning_stats": {},
+  "c_train_sec": 0.0,
+  "search_sec": 858.446789896996,
+  "final_wrr_train_sec": 25.232815340001252,
+  "no_C": {
+    "MR": 26801.486350863106,
+    "MRR": 0.4805919334139509,
+    "Hits@1": 43.69731031714171,
+    "Hits@3": 52.12765957446809,
+    "Hits@10": 54.83741469289441,
+    "n_eval": 4982
+  },
+  "with_C": {
+    "MR": 17702.528502609395,
+    "MRR": 0.5881294040086185,
+    "Hits@1": 52.83018867924528,
+    "Hits@3": 64.15094339622641,
+    "Hits@10": 68.34604576475311,
+    "n_eval": 4982
+  },
+  "delta_MRR": 0.10753747059466756,
+  "no_C_eval_sec": 33.074549508004566,
+  "with_C_eval_sec": 50.205701626997325
+}

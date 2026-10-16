@@ -1,0 +1,4 @@
+You're trying to map triples with 30 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+In total 28 from 20466 triples were filtered out
+You're trying to map triples with 9 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+In total 9 from 17535 triples were filtered out

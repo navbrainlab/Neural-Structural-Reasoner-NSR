@@ -1,0 +1,54 @@
+{
+  "dataset": "FB15K-237",
+  "params": {
+    "T_thresh": 0.16,
+    "W_RR_sigmoid_k": 1.0,
+    "C_activity_threshold": 0.5,
+    "C_rule_threshold": 0.12,
+    "C_min_support": 5,
+    "agg_mode": "max",
+    "alpha": 1.0,
+    "learn_cache_reverse": true,
+    "C_dense_memory_limit_bytes": 1
+  },
+  "top_rules_fraction": 1.0,
+  "train_timing": {
+    "model_init_sec": 0.07654942199587822,
+    "encode_sec": 1.1351773929782212,
+    "wrr_train_sec": 201.81909837503918,
+    "c_train_sec": 1216.5458804939408,
+    "total_train_sec": 1419.5767151270993
+  },
+  "train_wall_sec": 1419.576721437974,
+  "C_learning_stats": {
+    "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+    "T": 5,
+    "activity_threshold": 0.5,
+    "antecedent_pairs_with_support": 26859,
+    "path_experience_samples": 198862326,
+    "unique_endpoint_samples": 198862326,
+    "active_rules": 5622,
+    "erz_cache_entries_added": 0
+  },
+  "no_C": {
+    "MR": 7212.165622859379,
+    "MRR": 0.0007069491743233478,
+    "Hits@1": 0.009785693316371465,
+    "Hits@3": 0.02446423329092866,
+    "Hits@10": 0.06849985321460025,
+    "n_eval": 20438
+  },
+  "with_C": {
+    "MR": 3753.3127507583913,
+    "MRR": 0.199604295703324,
+    "Hits@1": 15.069967707212056,
+    "Hits@3": 21.75848908895195,
+    "Hits@10": 29.38643702906351,
+    "n_eval": 20438
+  },
+  "delta_MRR": 0.19889734652900065,
+  "delta_Hits@1": 15.060182013895684,
+  "no_C_eval_sec": 16.498112522996962,
+  "with_C_eval_sec": 22.55539885396138,
+  "total_wall_sec": 1458.6302328149322
+}

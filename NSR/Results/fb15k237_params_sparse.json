@@ -1,0 +1,11 @@
+{
+  "T_thresh": 0.16,
+  "W_RR_sigmoid_k": 1.0,
+  "C_activity_threshold": 0.5,
+  "C_rule_threshold": 0.12,
+  "C_min_support": 5,
+  "agg_mode": "max",
+  "alpha": 1.0,
+  "learn_cache_reverse": true,
+  "C_dense_memory_limit_bytes": 1
+}

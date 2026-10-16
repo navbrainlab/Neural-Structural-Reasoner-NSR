@@ -1,0 +1,53 @@
+{
+  "dataset": "KINSHIP",
+  "params": {
+    "T_thresh": 0.022613644455269033,
+    "W_RR_sigmoid_k": 0.21526280972215273,
+    "C_activity_threshold": 0.75,
+    "C_rule_threshold": 0.30284105871864264,
+    "C_min_support": 7,
+    "agg_mode": "add",
+    "alpha": 0.2919214103158502,
+    "learn_cache_reverse": true
+  },
+  "top_rules_fraction": 1.0,
+  "train_timing": {
+    "model_init_sec": 0.0004159179516136646,
+    "encode_sec": 0.01094478601589799,
+    "wrr_train_sec": 0.12319168704561889,
+    "c_train_sec": 13.950099329929799,
+    "total_train_sec": 14.08465614891611
+  },
+  "train_wall_sec": 14.08465943299234,
+  "C_learning_stats": {
+    "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+    "T": 5,
+    "activity_threshold": 0.75,
+    "antecedent_pairs_with_support": 2350,
+    "path_experience_samples": 2779932,
+    "unique_endpoint_samples": 2779932,
+    "active_rules": 1995,
+    "erz_cache_entries_added": 0
+  },
+  "no_C": {
+    "MR": 16.084729981378025,
+    "MRR": 0.4822139595325266,
+    "Hits@1": 35.567970204841714,
+    "Hits@3": 55.493482309124765,
+    "Hits@10": 72.62569832402235,
+    "n_eval": 1074
+  },
+  "with_C": {
+    "MR": 4.36219739292365,
+    "MRR": 0.6530721308197953,
+    "Hits@1": 54.46927374301676,
+    "Hits@3": 71.04283054003724,
+    "Hits@10": 88.54748603351955,
+    "n_eval": 1074
+  },
+  "delta_MRR": 0.1708581712872687,
+  "delta_Hits@1": 18.901303538175043,
+  "no_C_eval_sec": 0.02129514585249126,
+  "with_C_eval_sec": 0.3051145791541785,
+  "total_wall_sec": 14.411069157999009
+}

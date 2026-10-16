@@ -1,0 +1,1446 @@
+{
+  "checkpoint": "/home/amax/Zixing_Jia/NSR_Dynamic/Other_Model/results/KINSHIP/neurallp/experiment/ckpt/model-10",
+  "dataset": "KINSHIP",
+  "events": [
+    {
+      "event_index": 0,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.3884905764012355,
+        "effective_updated_parameters": 56160.97470571541,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.025540765309459028,
+        "rule_update_locality": 0.8077207476850655,
+        "top_rule_changes": [
+          {
+            "after": 0.28557848689325127,
+            "before": 0.17671677626808602,
+            "delta": 0.10886171062516525,
+            "graph_relevant": true,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.04196394839261647,
+            "before": 0.12107326764996279,
+            "delta": -0.07910931925734632,
+            "graph_relevant": true,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.013164456437857248,
+            "before": 0.046915061342370966,
+            "delta": -0.03375060490451372,
+            "graph_relevant": true,
+            "rule": "R_term1 <= R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.011549087014544426,
+            "before": 0.03715465410728765,
+            "delta": -0.025605567092743226,
+            "graph_relevant": false,
+            "rule": "R_term1 <= R_term9 o inv_R_term1"
+          },
+          {
+            "after": 0.07859534007034488,
+            "before": 0.0542303914368474,
+            "delta": 0.02436494863349748,
+            "graph_relevant": true,
+            "rule": "R_term1 <= R_term9 o inv_R_term2"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 1,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.2641682675028519,
+        "effective_updated_parameters": 38188.69308674728,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.001893639229343316,
+        "rule_update_locality": 0.21917490640762965,
+        "top_rule_changes": [
+          {
+            "after": 0.3862392296367031,
+            "before": 0.36659323934463955,
+            "delta": 0.019645990292063542,
+            "graph_relevant": true,
+            "rule": "R_term7 <= R_term10 o inv_R_term16"
+          },
+          {
+            "after": 0.1332263151205822,
+            "before": 0.12107326764996279,
+            "delta": 0.012153047470619405,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.13726201013189357,
+            "before": 0.14907087901596314,
+            "delta": -0.011808868884069568,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.24401529783983628,
+            "before": 0.2542479395842493,
+            "delta": -0.010232641744413018,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.1667319376065626,
+            "before": 0.17671677626808602,
+            "delta": -0.009984838661523415,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 2,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.5026667441728423,
+        "effective_updated_parameters": 72666.50987111442,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.019427487514862486,
+        "rule_update_locality": 0.2918144181584697,
+        "top_rule_changes": [
+          {
+            "after": 0.2489835185661891,
+            "before": 0.17524915862350227,
+            "delta": 0.07373435994268684,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term11 o inv_R_term6"
+          },
+          {
+            "after": 0.22530779297442585,
+            "before": 0.16140368200509206,
+            "delta": 0.0639041109693338,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term6"
+          },
+          {
+            "after": 0.05241458336841973,
+            "before": 0.11547305769196628,
+            "delta": -0.06305847432354655,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term11 o inv_R_term5"
+          },
+          {
+            "after": 0.04743050530580928,
+            "before": 0.1063501635628983,
+            "delta": -0.058919658257089016,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term5"
+          },
+          {
+            "after": 0.05762031851460597,
+            "before": 0.03988256515908388,
+            "delta": 0.017737753355522093,
+            "graph_relevant": false,
+            "rule": "R_term15 <= inv_R_term11 o inv_R_term6"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 3,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.3114089391647943,
+        "effective_updated_parameters": 45017.899063540994,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.00280771214588592,
+        "rule_update_locality": 0.07671760617829423,
+        "top_rule_changes": [
+          {
+            "after": 0.41385153325160257,
+            "before": 0.3974655026886446,
+            "delta": 0.016386030562957954,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.16273034472898373,
+            "before": 0.17671677626808602,
+            "delta": -0.013986431539102284,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.24027520752882964,
+            "before": 0.2542479395842493,
+            "delta": -0.013972732055419657,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.11657423430881603,
+            "before": 0.13038189884112583,
+            "delta": -0.013807664532309805,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1533676500712577,
+            "before": 0.16706536481911896,
+            "delta": -0.013697714747861273,
+            "graph_relevant": true,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term8"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 4,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.30369772124483846,
+        "effective_updated_parameters": 43903.14997859634,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.02827263938050925,
+        "rule_update_locality": 0.6863274368058881,
+        "top_rule_changes": [
+          {
+            "after": 0.2697746071925684,
+            "before": 0.3717233329021361,
+            "delta": -0.1019487257095677,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.19852701035626139,
+            "before": 0.10702345018303676,
+            "delta": 0.09150356017322463,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.22410225755008553,
+            "before": 0.2542479395842493,
+            "delta": -0.030145682034163762,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.1744105597122473,
+            "before": 0.145072777577279,
+            "delta": 0.02933778213496832,
+            "graph_relevant": false,
+            "rule": "R_term11 <= R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.24554682728057484,
+            "before": 0.2203912412974661,
+            "delta": 0.02515558598310874,
+            "graph_relevant": false,
+            "rule": "R_term2 <= R_term11 o inv_R_term1"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 5,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.4074273187482092,
+        "effective_updated_parameters": 58898.50805287862,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.019922973259394933,
+        "rule_update_locality": 0.7170539411875294,
+        "top_rule_changes": [
+          {
+            "after": 0.10254578635128521,
+            "before": 0.17524915862350227,
+            "delta": -0.07270337227221706,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term11 o inv_R_term6"
+          },
+          {
+            "after": 0.17221651679824265,
+            "before": 0.1063501635628983,
+            "delta": 0.06586635323534436,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term9 o inv_R_term5"
+          },
+          {
+            "after": 0.1798122796091857,
+            "before": 0.11547305769196628,
+            "delta": 0.06433922191721941,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term11 o inv_R_term5"
+          },
+          {
+            "after": 0.0982139716827935,
+            "before": 0.16140368200509206,
+            "delta": -0.06318971032229856,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term6"
+          },
+          {
+            "after": 0.023361915637943653,
+            "before": 0.03988256515908388,
+            "delta": -0.016520649521140227,
+            "graph_relevant": false,
+            "rule": "R_term15 <= inv_R_term11 o inv_R_term6"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 6,
+      "neural_lp": {
+        "changed_parameter_count": 144046,
+        "effective_update_ratio": 0.35841788353483606,
+        "effective_updated_parameters": 51813.60607956297,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.001626466945414195,
+        "rule_update_locality": 0.029822657274904844,
+        "top_rule_changes": [
+          {
+            "after": 0.13654622773920425,
+            "before": 0.14907087901596314,
+            "delta": -0.012524651276758891,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.11860440823572446,
+            "before": 0.13038189884112583,
+            "delta": -0.01177749060540137,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13280108839317942,
+            "before": 0.12107326764996279,
+            "delta": 0.011727820743216627,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.24282121373421403,
+            "before": 0.2542479395842493,
+            "delta": -0.011426725850035263,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.16565107589458716,
+            "before": 0.17671677626808602,
+            "delta": -0.011065700373498855,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 7,
+      "neural_lp": {
+        "changed_parameter_count": 144047,
+        "effective_update_ratio": 0.25081572497672366,
+        "effective_updated_parameters": 36258.422834085126,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0018003328393932654,
+        "rule_update_locality": 0.14409114088025204,
+        "top_rule_changes": [
+          {
+            "after": 0.13490429790465894,
+            "before": 0.14907087901596314,
+            "delta": -0.0141665811113042,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1343431246222326,
+            "before": 0.12107326764996279,
+            "delta": 0.013269856972269817,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.11895014662433034,
+            "before": 0.13038189884112583,
+            "delta": -0.011431752216795488,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.16585554964220484,
+            "before": 0.17671677626808602,
+            "delta": -0.010861226625881182,
+            "graph_relevant": true,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.06044340842440575,
+            "before": 0.07118294899721277,
+            "delta": -0.010739540572807016,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 8,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.324400612334759,
+        "effective_updated_parameters": 46896.001320337426,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0018679461398089076,
+        "rule_update_locality": 0.6136155140158066,
+        "top_rule_changes": [
+          {
+            "after": 0.12967340868126376,
+            "before": 0.145072777577279,
+            "delta": -0.01539936889601523,
+            "graph_relevant": false,
+            "rule": "R_term11 <= R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.11758015326377712,
+            "before": 0.13038189884112583,
+            "delta": -0.012801745577348714,
+            "graph_relevant": true,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1364123378940735,
+            "before": 0.14907087901596314,
+            "delta": -0.012658541121889633,
+            "graph_relevant": true,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.40986685091906033,
+            "before": 0.3974655026886446,
+            "delta": 0.01240134823041572,
+            "graph_relevant": true,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.0955154596202645,
+            "before": 0.10702345018303676,
+            "delta": -0.011507990562772255,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term10"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 9,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.34790605346993236,
+        "effective_updated_parameters": 50293.99490172036,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0015422499250740131,
+        "rule_update_locality": 0.05049424433338198,
+        "top_rule_changes": [
+          {
+            "after": 0.1371908390558409,
+            "before": 0.14907087901596314,
+            "delta": -0.01188003996012224,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1326874484300531,
+            "before": 0.12107326764996279,
+            "delta": 0.0116141807800903,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.11961274156277621,
+            "before": 0.13038189884112583,
+            "delta": -0.010769157278349623,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.4079246525918269,
+            "before": 0.3974655026886446,
+            "delta": 0.010459149903182308,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.16661338852168195,
+            "before": 0.17671677626808602,
+            "delta": -0.010103387746404069,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 10,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.2788366441723172,
+        "effective_updated_parameters": 40309.182954838514,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0015150685335833382,
+        "rule_update_locality": 0.09206862186162214,
+        "top_rule_changes": [
+          {
+            "after": 0.24429854562699704,
+            "before": 0.2542479395842493,
+            "delta": -0.00994939395725225,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.13912863362318814,
+            "before": 0.14907087901596314,
+            "delta": -0.009942245392774995,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13054067289883883,
+            "before": 0.12107326764996279,
+            "delta": 0.009467405248876043,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.15046594186286893,
+            "before": 0.14109694537751113,
+            "delta": 0.0093689964853578,
+            "graph_relevant": true,
+            "rule": "R_term8 <= R_term11 o inv_R_term16"
+          },
+          {
+            "after": 0.1210175425633974,
+            "before": 0.13038189884112583,
+            "delta": -0.009364356277728428,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 11,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.4293205387102822,
+        "effective_updated_parameters": 62063.43571703581,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.010803773490178364,
+        "rule_update_locality": 0.25744330047176395,
+        "top_rule_changes": [
+          {
+            "after": 0.06402443450729696,
+            "before": 0.11547305769196628,
+            "delta": -0.05144862318466932,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term11 o inv_R_term5"
+          },
+          {
+            "after": 0.060469016029712816,
+            "before": 0.1063501635628983,
+            "delta": -0.04588114753318548,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term5"
+          },
+          {
+            "after": 0.20715992614938897,
+            "before": 0.16140368200509206,
+            "delta": 0.04575624414429691,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term6"
+          },
+          {
+            "after": 0.21934038281308904,
+            "before": 0.17524915862350227,
+            "delta": 0.044091224189586775,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term11 o inv_R_term6"
+          },
+          {
+            "after": 0.1344342292934603,
+            "before": 0.12107326764996279,
+            "delta": 0.01336096164349751,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 12,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.24435206793378658,
+        "effective_updated_parameters": 35324.023644644054,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.014929112828043902,
+        "rule_update_locality": 0.8775452008868431,
+        "top_rule_changes": [
+          {
+            "after": 0.46740036935546714,
+            "before": 0.3717233329021361,
+            "delta": 0.09567703645333103,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.05127038272845793,
+            "before": 0.10702345018303676,
+            "delta": -0.05575306745457883,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.027835334735940152,
+            "before": 0.05240804308777889,
+            "delta": -0.024572708351838737,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term9"
+          },
+          {
+            "after": 0.27291669437248156,
+            "before": 0.2542479395842493,
+            "delta": 0.018668754788232267,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.13643232171346106,
+            "before": 0.14907087901596314,
+            "delta": -0.012638557302502074,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 13,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.34649540298057835,
+        "effective_updated_parameters": 50090.068445678364,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.007049847220766252,
+        "rule_update_locality": 0.6485763695344304,
+        "top_rule_changes": [
+          {
+            "after": 0.10421831674295001,
+            "before": 0.145072777577279,
+            "delta": -0.040854460834328976,
+            "graph_relevant": true,
+            "rule": "R_term11 <= R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.1671242176552503,
+            "before": 0.13115598267455694,
+            "delta": 0.03596823498069335,
+            "graph_relevant": false,
+            "rule": "R_term11 <= R_term11 o inv_R_term9"
+          },
+          {
+            "after": 0.06295540444825128,
+            "before": 0.04281829218875391,
+            "delta": 0.020137112259497367,
+            "graph_relevant": true,
+            "rule": "R_term11 <= inv_R_term9 o inv_R_term9"
+          },
+          {
+            "after": 0.2371292834340775,
+            "before": 0.2542479395842493,
+            "delta": -0.0171186561501718,
+            "graph_relevant": true,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.13340388858878108,
+            "before": 0.14907087901596314,
+            "delta": -0.01566699042718206,
+            "graph_relevant": true,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 14,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.2410798373699253,
+        "effective_updated_parameters": 34850.98344987114,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.008175385735188511,
+        "rule_update_locality": 0.6681078964409574,
+        "top_rule_changes": [
+          {
+            "after": 0.3835284126523753,
+            "before": 0.3195474526695449,
+            "delta": 0.06398095998283043,
+            "graph_relevant": true,
+            "rule": "R_term2 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.18707562376507175,
+            "before": 0.2203912412974661,
+            "delta": -0.03331561753239434,
+            "graph_relevant": true,
+            "rule": "R_term2 <= R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.1433501251136026,
+            "before": 0.12107326764996279,
+            "delta": 0.022276857463639804,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.6258188905251769,
+            "before": 0.6100787670046993,
+            "delta": 0.0157401235204776,
+            "graph_relevant": false,
+            "rule": "R_term13 <= inv_R_term11 o R_term13"
+          },
+          {
+            "after": 0.1335242282960364,
+            "before": 0.14907087901596314,
+            "delta": -0.015546650719926725,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 15,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.2875804061038524,
+        "effective_updated_parameters": 41573.19866718511,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0015095275550119267,
+        "rule_update_locality": 0.22009574419038483,
+        "top_rule_changes": [
+          {
+            "after": 0.10386314025468904,
+            "before": 0.0897025616871405,
+            "delta": 0.014160578567548543,
+            "graph_relevant": true,
+            "rule": "R_term16 <= R_term11 o inv_R_term7"
+          },
+          {
+            "after": 0.1380487562235252,
+            "before": 0.14907087901596314,
+            "delta": -0.011022122792437944,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.15640724401692027,
+            "before": 0.16706536481911896,
+            "delta": -0.01065812080219869,
+            "graph_relevant": true,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term8"
+          },
+          {
+            "after": 0.13086455685984177,
+            "before": 0.12107326764996279,
+            "delta": 0.009791289209878984,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.10635959970088318,
+            "before": 0.09674226586241723,
+            "delta": 0.009617333838465955,
+            "graph_relevant": false,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term7"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 16,
+      "neural_lp": {
+        "changed_parameter_count": 144047,
+        "effective_update_ratio": 0.3206340930938781,
+        "effective_updated_parameters": 46351.5057658372,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0017862734425747233,
+        "rule_update_locality": 0.11034796903316252,
+        "top_rule_changes": [
+          {
+            "after": 0.4778753977053713,
+            "before": 0.4641137517133036,
+            "delta": 0.013761645992067695,
+            "graph_relevant": true,
+            "rule": "R_term6 <= inv_R_term11 o inv_R_term15"
+          },
+          {
+            "after": 0.13567448025424095,
+            "before": 0.14907087901596314,
+            "delta": -0.013396398761722189,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13317416663083784,
+            "before": 0.12107326764996279,
+            "delta": 0.012100898980875047,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.11883601125319261,
+            "before": 0.13038189884112583,
+            "delta": -0.01154588758793322,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.2438159079542615,
+            "before": 0.2542479395842493,
+            "delta": -0.010432031629987792,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 17,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.3559609892761346,
+        "effective_updated_parameters": 51458.43253173657,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0016005578168593682,
+        "rule_update_locality": 0.024676614662734367,
+        "top_rule_changes": [
+          {
+            "after": 0.1365126916707837,
+            "before": 0.14907087901596314,
+            "delta": -0.012558187345179439,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13326437331899527,
+            "before": 0.12107326764996279,
+            "delta": 0.012191105669032476,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.11906133241956826,
+            "before": 0.13038189884112583,
+            "delta": -0.01132056642155757,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.24312193297986096,
+            "before": 0.2542479395842493,
+            "delta": -0.011126006604388339,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.4081206833757271,
+            "before": 0.3974655026886446,
+            "delta": 0.010655180687082488,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 18,
+      "neural_lp": {
+        "changed_parameter_count": 144047,
+        "effective_update_ratio": 0.31332887571180446,
+        "effective_updated_parameters": 45295.44893064987,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0016899799005291483,
+        "rule_update_locality": 0.1502596741435068,
+        "top_rule_changes": [
+          {
+            "after": 0.354164461280291,
+            "before": 0.36659323934463955,
+            "delta": -0.012428778064348556,
+            "graph_relevant": true,
+            "rule": "R_term7 <= R_term10 o inv_R_term16"
+          },
+          {
+            "after": 0.13713590173680465,
+            "before": 0.14907087901596314,
+            "delta": -0.011934977279158487,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13270732378702338,
+            "before": 0.12107326764996279,
+            "delta": 0.011634056137060589,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.11951188452366227,
+            "before": 0.13038189884112583,
+            "delta": -0.010870014317463567,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.4079115975269743,
+            "before": 0.3974655026886446,
+            "delta": 0.0104460948383297,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 19,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.38912595539374817,
+        "effective_updated_parameters": 56252.82636363102,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.10913891889448203,
+        "rule_update_locality": 0.4341883074797135,
+        "top_rule_changes": [
+          {
+            "after": 0.13894098532360166,
+            "before": 0.3717233329021361,
+            "delta": -0.23278234757853444,
+            "graph_relevant": false,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.3214538784355997,
+            "before": 0.10702345018303676,
+            "delta": 0.21443042825256292,
+            "graph_relevant": true,
+            "rule": "R_term9 <= inv_R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.2035170240489969,
+            "before": 0.2542479395842493,
+            "delta": -0.050730915535252386,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.1859635335317106,
+            "before": 0.145072777577279,
+            "delta": 0.04089075595443162,
+            "graph_relevant": false,
+            "rule": "R_term11 <= R_term11 o inv_R_term10"
+          },
+          {
+            "after": 0.10439769824502414,
+            "before": 0.13115598267455694,
+            "delta": -0.026758284429532805,
+            "graph_relevant": true,
+            "rule": "R_term11 <= R_term11 o inv_R_term9"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 20,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.30662055542701094,
+        "effective_updated_parameters": 44325.68073363956,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.00150272161708712,
+        "rule_update_locality": 0.06080527241722978,
+        "top_rule_changes": [
+          {
+            "after": 0.1188738143039785,
+            "before": 0.13038189884112583,
+            "delta": -0.011508084537147328,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.40796567718324456,
+            "before": 0.3974655026886446,
+            "delta": 0.010500174494599945,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.13144625787062833,
+            "before": 0.12107326764996279,
+            "delta": 0.01037299022066554,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.16637857372560047,
+            "before": 0.17671677626808602,
+            "delta": -0.010338202542485547,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.24404241008008112,
+            "before": 0.2542479395842493,
+            "delta": -0.01020552950416817,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 21,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.35571843975397893,
+        "effective_updated_parameters": 51423.3690877147,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0026426821597085415,
+        "rule_update_locality": 0.008470342398748944,
+        "top_rule_changes": [
+          {
+            "after": 0.4150210049770485,
+            "before": 0.3974655026886446,
+            "delta": 0.017555502288403912,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.23960113935657568,
+            "before": 0.2542479395842493,
+            "delta": -0.014646800227673618,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.11731094570743315,
+            "before": 0.13038189884112583,
+            "delta": -0.013070953133692678,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1360295578069849,
+            "before": 0.14907087901596314,
+            "delta": -0.013041321208978246,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.05846043193219343,
+            "before": 0.07118294899721277,
+            "delta": -0.01272251706501934,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 22,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.44127695897379465,
+        "effective_updated_parameters": 63791.8797431697,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.00995789182687935,
+        "rule_update_locality": 0.36406746555519504,
+        "top_rule_changes": [
+          {
+            "after": 0.5699699220430843,
+            "before": 0.6100787670046993,
+            "delta": -0.04010884496161504,
+            "graph_relevant": false,
+            "rule": "R_term13 <= inv_R_term11 o R_term13"
+          },
+          {
+            "after": 0.10007584903350954,
+            "before": 0.06093804189939687,
+            "delta": 0.03913780713411267,
+            "graph_relevant": true,
+            "rule": "R_term12 <= R_term9 o inv_R_term12"
+          },
+          {
+            "after": 0.09377272368945387,
+            "before": 0.054854441041328396,
+            "delta": 0.038918282648125475,
+            "graph_relevant": true,
+            "rule": "R_term12 <= R_term11 o inv_R_term12"
+          },
+          {
+            "after": 0.0962047066287613,
+            "before": 0.13134709753093685,
+            "delta": -0.03514239090217555,
+            "graph_relevant": false,
+            "rule": "R_term12 <= R_term9 o inv_R_term14"
+          },
+          {
+            "after": 0.09014539930910877,
+            "before": 0.11823438024731964,
+            "delta": -0.02808898093821087,
+            "graph_relevant": false,
+            "rule": "R_term12 <= R_term11 o inv_R_term14"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 23,
+      "neural_lp": {
+        "changed_parameter_count": 144048,
+        "effective_update_ratio": 0.29083329235357436,
+        "effective_updated_parameters": 42043.442409217416,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.002268108792698457,
+        "rule_update_locality": 0.03333717692541081,
+        "top_rule_changes": [
+          {
+            "after": 0.3395255933071389,
+            "before": 0.36659323934463955,
+            "delta": -0.02706764603750067,
+            "graph_relevant": false,
+            "rule": "R_term7 <= R_term10 o inv_R_term16"
+          },
+          {
+            "after": 0.24405396555293007,
+            "before": 0.2542479395842493,
+            "delta": -0.01019397403131922,
+            "graph_relevant": false,
+            "rule": "R_term10 <= inv_R_term11 o inv_R_term11"
+          },
+          {
+            "after": 0.12034041605256217,
+            "before": 0.13038189884112583,
+            "delta": -0.010041482788563663,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.13914136310211062,
+            "before": 0.14907087901596314,
+            "delta": -0.009929515913852521,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.1309802642278378,
+            "before": 0.12107326764996279,
+            "delta": 0.009906996577874999,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 24,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.23297387812157158,
+        "effective_updated_parameters": 33679.16976901063,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0020193625546109165,
+        "rule_update_locality": 0.16954159679282288,
+        "top_rule_changes": [
+          {
+            "after": 0.13670246695071628,
+            "before": 0.12107326764996279,
+            "delta": 0.015629199300753488,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.16336758438113702,
+            "before": 0.17671677626808602,
+            "delta": -0.013349191886948997,
+            "graph_relevant": true,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.13691142999846032,
+            "before": 0.14907087901596314,
+            "delta": -0.012159449017502821,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.40955023434588794,
+            "before": 0.3974655026886446,
+            "delta": 0.01208473165724333,
+            "graph_relevant": false,
+            "rule": "R_term4 <= R_term11 o inv_R_term4"
+          },
+          {
+            "after": 0.11850787647894259,
+            "before": 0.13038189884112583,
+            "delta": -0.01187402236218324,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 25,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.3509117986765391,
+        "effective_updated_parameters": 50728.51144027784,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.041909212162947775,
+        "rule_update_locality": 0.5354090242555136,
+        "top_rule_changes": [
+          {
+            "after": 0.25500003377759134,
+            "before": 0.12107326764996279,
+            "delta": 0.13392676612762855,
+            "graph_relevant": true,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.058586441902344716,
+            "before": 0.17671677626808602,
+            "delta": -0.1181303343657413,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.021364811012836916,
+            "before": 0.06847653953482645,
+            "delta": -0.047111728521989533,
+            "graph_relevant": false,
+            "rule": "R_term1 <= R_term11 o inv_R_term2"
+          },
+          {
+            "after": 0.09299126816757977,
+            "before": 0.046915061342370966,
+            "delta": 0.046076206825208806,
+            "graph_relevant": true,
+            "rule": "R_term1 <= R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.07537894605556977,
+            "before": 0.03715465410728765,
+            "delta": 0.03822429194828212,
+            "graph_relevant": true,
+            "rule": "R_term1 <= R_term9 o inv_R_term1"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 26,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.33000570734538,
+        "effective_updated_parameters": 47706.28506526282,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.0013044006150864113,
+        "rule_update_locality": 0.14864767769789294,
+        "top_rule_changes": [
+          {
+            "after": 0.17926165910482006,
+            "before": 0.16706536481911896,
+            "delta": 0.012196294285701098,
+            "graph_relevant": true,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term8"
+          },
+          {
+            "after": 0.1310837480345479,
+            "before": 0.12107326764996279,
+            "delta": 0.010010480384585102,
+            "graph_relevant": false,
+            "rule": "R_term1 <= inv_R_term11 o inv_R_term1"
+          },
+          {
+            "after": 0.13921445518474118,
+            "before": 0.14907087901596314,
+            "delta": -0.009856423831221955,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.08262940152958997,
+            "before": 0.0922330226719969,
+            "delta": -0.009603621142406926,
+            "graph_relevant": false,
+            "rule": "R_term12 <= R_term9 o inv_R_term20"
+          },
+          {
+            "after": 0.12162828311617836,
+            "before": 0.13038189884112583,
+            "delta": -0.00875361572494747,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 27,
+      "neural_lp": {
+        "changed_parameter_count": 144047,
+        "effective_update_ratio": 0.2875598750750695,
+        "effective_updated_parameters": 41570.2306606022,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.005336657738574182,
+        "rule_update_locality": 0.27473884059128834,
+        "top_rule_changes": [
+          {
+            "after": 0.11927431930138621,
+            "before": 0.14907087901596314,
+            "delta": -0.029796559714576926,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.12682501305390506,
+            "before": 0.10635101441169226,
+            "delta": 0.020473998642212804,
+            "graph_relevant": true,
+            "rule": "R_term17 <= R_term9 o inv_R_term17"
+          },
+          {
+            "after": 0.024158922772556195,
+            "before": 0.043902317221994086,
+            "delta": -0.01974339444943789,
+            "graph_relevant": false,
+            "rule": "R_term17 <= R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.11099764538042624,
+            "before": 0.13038189884112583,
+            "delta": -0.019384253460699594,
+            "graph_relevant": false,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term3"
+          },
+          {
+            "after": 0.09702048316370042,
+            "before": 0.07894803530097308,
+            "delta": 0.01807244786272734,
+            "graph_relevant": true,
+            "rule": "R_term3 <= inv_R_term11 o inv_R_term17"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 28,
+      "neural_lp": {
+        "changed_parameter_count": 144050,
+        "effective_update_ratio": 0.39259182036997636,
+        "effective_updated_parameters": 56753.858736324524,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.032730532349723535,
+        "rule_update_locality": 0.3480120414197299,
+        "top_rule_changes": [
+          {
+            "after": 0.20915636427554016,
+            "before": 0.1063501635628983,
+            "delta": 0.10280620071264186,
+            "graph_relevant": true,
+            "rule": "R_term15 <= R_term9 o inv_R_term5"
+          },
+          {
+            "after": 0.07986189142815969,
+            "before": 0.17524915862350227,
+            "delta": -0.09538726719534257,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term11 o inv_R_term6"
+          },
+          {
+            "after": 0.09077287862625993,
+            "before": 0.16140368200509206,
+            "delta": -0.07063080337883212,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term9 o inv_R_term6"
+          },
+          {
+            "after": 0.18401556839522293,
+            "before": 0.11547305769196628,
+            "delta": 0.06854251070325665,
+            "graph_relevant": false,
+            "rule": "R_term15 <= R_term11 o inv_R_term5"
+          },
+          {
+            "after": 0.019788885321943166,
+            "before": 0.03988256515908388,
+            "delta": -0.020093679837140714,
+            "graph_relevant": true,
+            "rule": "R_term15 <= inv_R_term11 o inv_R_term6"
+          }
+        ]
+      }
+    },
+    {
+      "event_index": 29,
+      "neural_lp": {
+        "changed_parameter_count": 144049,
+        "effective_update_ratio": 0.322486235211054,
+        "effective_updated_parameters": 46619.25513458039,
+        "parameter_count": 144562,
+        "rule_update_energy": 0.006157412232766536,
+        "rule_update_locality": 0.21258837832267427,
+        "top_rule_changes": [
+          {
+            "after": 0.13900305718954292,
+            "before": 0.09674226586241723,
+            "delta": 0.042260791327125694,
+            "graph_relevant": false,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term7"
+          },
+          {
+            "after": 0.11276924961144617,
+            "before": 0.15490841629432558,
+            "delta": -0.04213916668287941,
+            "graph_relevant": false,
+            "rule": "R_term16 <= R_term11 o inv_R_term8"
+          },
+          {
+            "after": 0.13959661446891022,
+            "before": 0.16706536481911896,
+            "delta": -0.027468750350208737,
+            "graph_relevant": true,
+            "rule": "R_term16 <= inv_R_term11 o inv_R_term8"
+          },
+          {
+            "after": 0.11228976084124702,
+            "before": 0.0897025616871405,
+            "delta": 0.02258719915410652,
+            "graph_relevant": true,
+            "rule": "R_term16 <= R_term11 o inv_R_term7"
+          },
+          {
+            "after": 0.13757221149817148,
+            "before": 0.14907087901596314,
+            "delta": -0.01149866751779166,
+            "graph_relevant": false,
+            "rule": "R_term3 <= R_term11 o inv_R_term3"
+          }
+        ]
+      }
+    }
+  ]
+}

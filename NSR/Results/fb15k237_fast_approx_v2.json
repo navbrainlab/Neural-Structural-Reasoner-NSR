@@ -1,0 +1,25 @@
+{
+  "dataset": "FB15K-237",
+  "N": 14505,
+  "M": 237,
+  "K": 474,
+  "train": 272115,
+  "valid": 17526,
+  "test": 20438,
+  "timings": {
+    "encode_sec": 0.991698964000534,
+    "wrr_train_sec": 241.46174608,
+    "c_train_sec": 552.9734861190009,
+    "c_memory_peak_gb": 0.2819228246808052
+  },
+  "c_learning_stats": {
+    "source": "Fast_Approx_v2_sparse_matrix_path_weighted_running_mean",
+    "T": 5,
+    "activity_threshold": 0.5,
+    "antecedent_pairs_with_support": 26859,
+    "path_experience_samples": 198862326,
+    "unique_endpoint_samples": 198862326,
+    "active_rules": 6094,
+    "erz_cache_entries_added": 0
+  }
+}

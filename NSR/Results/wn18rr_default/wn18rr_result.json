@@ -1,0 +1,53 @@
+{
+  "dataset": "WN18RR",
+  "params": {
+    "T_thresh": 0.0,
+    "W_RR_sigmoid_k": 1.0,
+    "C_activity_threshold": 0.5,
+    "C_rule_threshold": 0.1,
+    "C_min_support": 2,
+    "agg_mode": "max",
+    "alpha": 1.0,
+    "learn_cache_reverse": true
+  },
+  "top_rules_fraction": 1.0,
+  "train_timing": {
+    "model_init_sec": 0.010647560004144907,
+    "encode_sec": 0.2937602980528027,
+    "wrr_train_sec": 0.8314413770567626,
+    "c_train_sec": 13.954886384075508,
+    "total_train_sec": 15.090741991996765
+  },
+  "train_wall_sec": 15.090744909830391,
+  "C_learning_stats": {
+    "source": "ERZ_first_second_hops_plus_simultaneous_inverse_R_return",
+    "T": 5,
+    "activity_threshold": 0.5,
+    "antecedent_pairs_with_support": 380,
+    "path_experience_samples": 3133366,
+    "unique_endpoint_samples": 3133366,
+    "active_rules": 42,
+    "erz_cache_entries_added": 0
+  },
+  "no_C": {
+    "MR": 12517.715458276334,
+    "MRR": 0.3720544419195699,
+    "Hits@1": 37.14090287277701,
+    "Hits@3": 37.24350205198358,
+    "Hits@10": 37.24350205198358,
+    "n_eval": 2924
+  },
+  "with_C": {
+    "MR": 12098.859781121751,
+    "MRR": 0.3938251717731771,
+    "Hits@1": 39.158686730506155,
+    "Hits@3": 39.60328317373461,
+    "Hits@10": 39.60328317373461,
+    "n_eval": 2924
+  },
+  "delta_MRR": 0.02177072985360723,
+  "delta_Hits@1": 2.0177838577291425,
+  "no_C_eval_sec": 6.3621679921634495,
+  "with_C_eval_sec": 6.466737330891192,
+  "total_wall_sec": 27.919650232885033
+}

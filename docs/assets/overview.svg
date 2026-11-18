@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="428" viewBox="0 0 1080 428" fill="#20364a" role="img" aria-labelledby="overview-title overview-desc">
+  <title id="overview-title">NSR: structured knowledge, neural connectivity, and interpretable inference</title>
+  <desc id="overview-desc">A fact, Paris capital_of France, is encoded in a four-population neural architecture. Entities E connect to entity–relation bindings Z through fixed connections. Fact encoding connects directed relations R to the selected bindings and joins those bindings in both directions. Composition neurons C participate in subsequent learning and are not written by this single fact. A conceptual query illustrates entity readout through network dynamics. This is a schematic, not a measured activation trace.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto-start-reverse"><path d="M1 1L5 3L1 5" fill="none" stroke="#8b9aa4" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="fact-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto-start-reverse"><path d="M1 1L5 3L1 5" fill="none" stroke="#ca762f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+      .eyebrow{font-size:10px;font-weight:600;letter-spacing:1.55px}
+      .heading{font-size:17px;font-weight:550;letter-spacing:-.3px}
+      .body{font-size:12px;fill:#697983}
+      .tiny{font-size:10px;fill:#697983}
+      .node-label{font-size:11px;font-weight:500}
+      .math{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+    </style>
+  </defs>
+  <rect width="1080" height="428" rx="5" fill="#fbfbf8"/>
+  <path d="M270 91V375M801 91V375" stroke="#e0e6e7" stroke-width="1"/>
+  <!-- A single fact, with explicit identities and relational roles. -->
+  <text x="28" y="31" class="eyebrow" fill="#697983">01 / STRUCTURED KNOWLEDGE</text>
+  <text x="28" y="58" class="heading">Start with a fact.</text>
+  <text x="28" y="110" class="tiny">HEAD ENTITY</text>
+  <circle cx="48" cy="145" r="17" fill="#397bbb" fill-opacity=".1"/>
+  <circle cx="48" cy="145" r="5" fill="#397bbb"/>
+  <text x="80" y="151" font-size="19" font-weight="500">Paris</text>
+  <path d="M48 169V252" fill="none" stroke="#a0b3a2" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="28" y="196" width="166" height="31" rx="15.5" fill="#edf2ea"/>
+  <text x="48" y="216" class="node-label" fill="#4e8750">capital_of</text>
+  <text x="179" y="216" text-anchor="end" class="math" font-size="13" fill="#4e8750">r</text>
+  <circle cx="48" cy="281" r="17" fill="#397bbb" fill-opacity=".1"/>
+  <circle cx="48" cy="281" r="5" fill="#397bbb"/>
+  <text x="80" y="287" font-size="19" font-weight="500">France</text>
+  <text x="28" y="325" class="tiny">TAIL ENTITY</text>
+  <text x="28" y="362" class="body">Keep entities, relations,</text>
+  <text x="28" y="380" class="body">and their roles explicit.</text>
+  <!-- All four planes use the same affine projection. -->
+  <text x="300" y="31" class="eyebrow" fill="#697983">02 / NEURAL STRUCTURE</text>
+  <text x="300" y="58" class="heading">Store knowledge in connectivity.</text>
+  <g stroke-width="1">
+    <path d="M347 125L716 113L751 147L382 159Z" fill="#8750ac" fill-opacity=".025" stroke="#d9d3e0"/>
+    <path d="M347 187L716 175L751 209L382 221Z" fill="#4e8750" fill-opacity=".035" stroke="#cfdbcc"/>
+    <path d="M347 249L716 237L751 271L382 283Z" fill="#ca762f" fill-opacity=".04" stroke="#e5d5c5"/>
+    <path d="M347 311L716 299L751 333L382 345Z" fill="#397bbb" fill-opacity=".035" stroke="#ccdbe6"/>
+  </g>
+  <g class="math" font-size="22" text-anchor="middle">
+    <text x="323" y="146" fill="#8750ac">C</text>
+    <text x="323" y="208" fill="#4e8750">R</text>
+    <text x="323" y="270" fill="#ca762f">Z</text>
+    <text x="323" y="332" fill="#397bbb">E</text>
+  </g>
+  <g font-size="10" text-anchor="end">
+    <text x="749" y="101" fill="#8750ac">compositions · PFC</text>
+    <text x="749" y="169" fill="#4e8750">relations · ATL</text>
+    <text x="749" y="232" fill="#ca762f">bindings · EC</text>
+    <text x="749" y="295" fill="#397bbb">entities · HPC</text>
+  </g>
+  <!-- C is present in the architecture; this fact does not modify it. -->
+  <g fill="#8750ac" opacity=".3">
+    <circle cx="407" cy="140" r="4"/><circle cx="463" cy="138" r="4"/><circle cx="519" cy="136" r="4"/><circle cx="575" cy="134" r="4"/><circle cx="631" cy="132" r="4"/><circle cx="687" cy="130" r="4"/>
+  </g>
+  <text x="366" y="121" class="tiny" style="fill:#8750ac">learned separately</text>
+  <!-- Fixed E–Z connectivity; the few shown links are a schematic subset. -->
+  <g stroke="#a6b6c2" stroke-width="1" opacity=".6">
+    <path d="M410 326L397 256M410 326L409 268M410 326L420 278"/>
+    <path d="M466 324L453 254M466 324L465 266M466 324L476 276"/>
+    <path d="M522 322L509 252M522 322L521 264M522 322L532 274"/>
+    <path d="M578 320L565 250M578 320L577 262M578 320L588 272"/>
+    <path d="M634 318L621 248M634 318L633 260M634 318L644 270"/>
+    <path d="M690 316L677 246M690 316L689 258M690 316L700 268"/>
+  </g>
+  <!-- The encoded fact selects head–forward and tail–inverse Z bindings. -->
+  <g fill="#ca762f" opacity=".28">
+    <circle cx="397" cy="256" r="2.6"/><circle cx="409" cy="268" r="2.6"/><circle cx="420" cy="278" r="2.6"/>
+    <circle cx="453" cy="254" r="2.6"/><circle cx="465" cy="266" r="2.6"/><circle cx="476" cy="276" r="2.6"/>
+    <circle cx="509" cy="252" r="2.6"/><circle cx="521" cy="264" r="2.6"/><circle cx="532" cy="274" r="2.6"/>
+    <circle cx="565" cy="250" r="2.6"/><circle cx="577" cy="262" r="2.6"/><circle cx="588" cy="272" r="2.6"/>
+    <circle cx="621" cy="248" r="2.6"/><circle cx="633" cy="260" r="2.6"/><circle cx="644" cy="270" r="2.6"/>
+    <circle cx="677" cy="246" r="2.6"/><circle cx="689" cy="258" r="2.6"/><circle cx="700" cy="268" r="2.6"/>
+  </g>
+  <path d="M466 324L453 254M634 318L644 270" stroke="#397bbb" stroke-width="1.8" opacity=".75"/>
+  <path d="M463 200L453 254M631 194L644 270" stroke="#4e8750" stroke-width="1.8"/>
+  <path d="M460 252Q545 213 637 267" fill="none" stroke="#ca762f" stroke-width="2" marker-start="url(#fact-arrow)" marker-end="url(#fact-arrow)"/>
+  <rect x="520" y="230" width="56" height="20" rx="10" fill="#fbfbf8"/>
+  <text x="548" y="244" font-size="10" fill="#a85f23" text-anchor="middle">w = 1</text>
+  <g fill="#4e8750" opacity=".26">
+    <circle cx="407" cy="202" r="4"/><circle cx="519" cy="198" r="4"/><circle cx="575" cy="196" r="4"/><circle cx="687" cy="192" r="4"/>
+  </g>
+  <g fill="#4e8750">
+    <circle cx="463" cy="200" r="10" fill-opacity=".12"/><circle cx="463" cy="200" r="5"/>
+    <circle cx="631" cy="194" r="10" fill-opacity=".12"/><circle cx="631" cy="194" r="5"/>
+  </g>
+  <text x="463" y="184" text-anchor="middle" class="math" font-size="14" fill="#4e8750">r</text>
+  <text x="631" y="178" text-anchor="middle" class="math" font-size="14" fill="#4e8750">r⁻¹</text>
+  <g fill="#ca762f">
+    <circle cx="453" cy="254" r="10" fill-opacity=".13"/><circle cx="453" cy="254" r="4.5"/>
+    <circle cx="644" cy="270" r="10" fill-opacity=".13"/><circle cx="644" cy="270" r="4.5"/>
+  </g>
+  <text x="449" y="240" text-anchor="end" font-size="10" fill="#a85f23">(Paris, r)</text>
+  <text x="650" y="285" font-size="10" fill="#a85f23">(France, r⁻¹)</text>
+  <g fill="#397bbb" opacity=".28">
+    <circle cx="410" cy="326" r="4"/><circle cx="522" cy="322" r="4"/><circle cx="578" cy="320" r="4"/><circle cx="690" cy="316" r="4"/>
+  </g>
+  <g fill="#397bbb">
+    <circle cx="466" cy="324" r="11" fill-opacity=".1"/><circle cx="466" cy="324" r="5"/>
+    <circle cx="634" cy="318" r="11" fill-opacity=".1"/><circle cx="634" cy="318" r="5"/>
+  </g>
+  <text x="466" y="353" text-anchor="middle" class="node-label" fill="#397bbb">Paris</text>
+  <text x="634" y="347" text-anchor="middle" class="node-label" fill="#397bbb">France</text>
+  <path d="M373 381H397" stroke="#a6b6c2" stroke-width="1.5"/>
+  <text x="405" y="385" class="tiny">fixed E–Z</text>
+  <path d="M492 381H516" stroke="#4e8750" stroke-width="1.8"/>
+  <text x="524" y="385" class="tiny">encoded R–Z</text>
+  <path d="M639 384Q651 375 663 384" fill="none" stroke="#ca762f" stroke-width="1.8"/>
+  <text x="672" y="385" class="tiny">encoded Z–Z</text>
+  <!-- An illustrative readout, without fabricated scores or dynamics. -->
+  <text x="829" y="31" class="eyebrow" fill="#697983">03 / NETWORK DYNAMICS</text>
+  <text x="829" y="58" class="heading">Reason through structure.</text>
+  <text x="829" y="111" class="tiny">QUERY</text>
+  <text x="829" y="140" font-size="15">(Paris, capital_of, <tspan fill="#ca762f" font-weight="600">?</tspan>)</text>
+  <path d="M831 165H1050" stroke="#e0e6e7"/>
+  <text x="829" y="193" class="body">Clamp the query.</text>
+  <text x="829" y="215" class="body">Follow neural activity.</text>
+  <g fill="none" stroke-width="1.3">
+    <path d="M852 252H915" stroke="#a0b3a2" marker-end="url(#arrow)"/>
+    <path d="M936 252H999" stroke="#a6b6c2" marker-end="url(#arrow)"/>
+  </g>
+  <circle cx="841" cy="252" r="13" fill="#edf2ea"/>
+  <circle cx="925" cy="252" r="13" fill="#f6ecdf"/>
+  <circle cx="1009" cy="252" r="13" fill="#eaf0f6"/>
+  <text x="841" y="257" text-anchor="middle" class="math" font-size="16" fill="#4e8750">R</text>
+  <text x="925" y="257" text-anchor="middle" class="math" font-size="16" fill="#ca762f">Z</text>
+  <text x="1009" y="257" text-anchor="middle" class="math" font-size="16" fill="#397bbb">E</text>
+  <text x="829" y="302" class="tiny">ENTITY READOUT</text>
+  <text x="829" y="334" font-size="25" font-weight="500" fill="#397bbb">France</text>
+  <text x="829" y="366" class="body">A path that can be inspected</text>
+  <text x="829" y="384" class="body">at the level of neural activity.</text>
+  <path d="M28 408H1052" stroke="#e0e6e7"/>
+</svg>
